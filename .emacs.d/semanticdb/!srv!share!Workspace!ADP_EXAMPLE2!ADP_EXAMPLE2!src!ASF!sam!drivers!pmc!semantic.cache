@@ -1,0 +1,380 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "sleep.h"
+      :pointmax 3572
+      :fsize 3688
+      :lastmodtime '(23369 49172 945576 148000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("PMC_H_INCLUDED" variable (:constant-flag t) nil [1474 1488])
+            ("compiler.h" include nil nil [1490 1511])
+            ("PMC_MASK_STATUS0" variable (:constant-flag t) nil [1568 1584])
+            ("PMC_MASK_STATUS1" variable (:constant-flag t) nil [1660 1676])
+            ("PMC_TIMEOUT" variable (:constant-flag t) nil [1754 1765])
+            ("CKGR_MOR_KEY_PASSWD" variable (:constant-flag t) nil [1913 1932])
+            ("SUPC_CR_KEY_PASSWD" variable (:constant-flag t) nil [2039 2057])
+            ("SUPC_MR_KEY_PASSWD" variable (:constant-flag t) nil [2123 2141])
+            ("PMC_FAST_STARTUP_Msk" variable (:constant-flag t) nil [2221 2241])
+            ("PMC_WPMR_WPKEY_PASSWD" variable (:constant-flag t) nil [2340 2361])
+            ("PMC_OSC_XTAL" variable (:constant-flag t) nil [2450 2462])
+            ("PMC_OSC_BYPASS" variable (:constant-flag t) nil [2518 2532])
+            ("PMC_PCK_0" variable (:constant-flag t) nil [2553 2562])
+            ("PMC_PCK_1" variable (:constant-flag t) nil [2601 2610])
+            ("PMC_PCK_2" variable (:constant-flag t) nil [2649 2658])
+            ("pmc_us_to_moscxtst" variable (:constant-flag t) nil [3431 3449])
+            ("pmc_mck_set_prescaler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3808 3825]))                  
+                :type "void")
+                nil [3781 3826])
+            ("pmc_mck_set_source" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_source" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3943 3962]))                  
+                :type "void")
+                nil [3919 3963])
+            ("pmc_switch_mck_to_sclk" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3996 4013]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [3964 4014])
+            ("pmc_switch_mck_to_mainck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4049 4066]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [4015 4067])
+            ("pmc_switch_mck_to_pllack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4102 4119]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [4068 4120])
+            ("pmc_switch_sclk_to_32kxtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_bypass" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4648 4667]))                  
+                :type "void")
+                nil [4616 4668])
+            ("pmc_osc_is_ready_32kxtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4703 4708]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [4669 4709])
+            ("pmc_switch_mainck_to_fastrc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_moscrcf" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4825 4845]))                  
+                :type "void")
+                nil [4792 4846])
+            ("pmc_osc_enable_fastrc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_rc" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4874 4889]))                  
+                :type "void")
+                nil [4847 4890])
+            ("pmc_osc_disable_fastrc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4919 4924]))                  
+                :type "void")
+                nil [4891 4925])
+            ("pmc_osc_is_ready_fastrc" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4959 4964]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [4926 4965])
+            ("pmc_osc_enable_main_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_xtal_startup_time" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4996 5026]))                  
+                :type "void")
+                nil [4966 5027])
+            ("pmc_osc_bypass_main_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5058 5063]))                  
+                :type "void")
+                nil [5028 5064])
+            ("pmc_osc_disable_main_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5096 5101]))                  
+                :type "void")
+                nil [5065 5102])
+            ("pmc_osc_is_bypassed_main_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5142 5147]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [5103 5148])
+            ("pmc_osc_is_ready_main_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5185 5190]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [5149 5191])
+            ("pmc_switch_mainck_to_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_bypass" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5223 5242])
+                    ("ul_xtal_startup_time" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5245 5275]))                  
+                :type "void")
+                nil [5192 5276])
+            ("pmc_osc_disable_xtal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_bypass" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5303 5322]))                  
+                :type "void")
+                nil [5277 5323])
+            ("pmc_osc_is_ready_mainck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5357 5362]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [5324 5363])
+            ("pmc_mainck_osc_select" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_xtal_rc" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5391 5411]))                  
+                :type "void")
+                nil [5364 5412])
+            ("pmc_enable_pllack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("mula" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5502 5516])
+                    ("pllacount" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5517 5536])
+                    ("diva" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5537 5551]))                  
+                :type "void")
+                nil [5479 5552])
+            ("pmc_disable_pllack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5577 5582]))                  
+                :type "void")
+                nil [5553 5583])
+            ("pmc_is_locked_pllack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5614 5619]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [5584 5620])
+            ("pmc_enable_periph_clk" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6101 6116]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [6070 6117])
+            ("pmc_disable_periph_clk" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6150 6165]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [6118 6166])
+            ("pmc_enable_all_periph_clk" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6198 6203]))                  
+                :type "void")
+                nil [6167 6204])
+            ("pmc_disable_all_periph_clk" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6237 6242]))                  
+                :type "void")
+                nil [6205 6243])
+            ("pmc_is_periph_clk_enabled" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6279 6294]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [6244 6295])
+            ("pmc_pck_set_prescaler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6531 6546])
+                    ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6547 6564]))                  
+                :type "void")
+                nil [6504 6565])
+            ("pmc_pck_set_source" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6590 6605])
+                    ("ul_source" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6606 6625]))                  
+                :type "void")
+                nil [6566 6626])
+            ("pmc_switch_pck_to_sclk" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6659 6674])
+                    ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6675 6692]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [6627 6693])
+            ("pmc_switch_pck_to_mainck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6728 6743])
+                    ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6744 6761]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [6694 6762])
+            ("pmc_switch_pck_to_pllack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6797 6812])
+                    ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6813 6830]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [6763 6831])
+            ("pmc_switch_pck_to_mck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7453 7468])
+                    ("ul_pres" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7469 7486]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [7422 7487])
+            ("pmc_enable_pck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7508 7523]))                  
+                :type "void")
+                nil [7488 7524])
+            ("pmc_disable_pck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7546 7561]))                  
+                :type "void")
+                nil [7525 7562])
+            ("pmc_enable_all_pck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7587 7592]))                  
+                :type "void")
+                nil [7563 7593])
+            ("pmc_disable_all_pck" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7619 7624]))                  
+                :type "void")
+                nil [7594 7625])
+            ("pmc_is_pck_enabled" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_id" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7654 7669]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [7626 7670])
+            ("pmc_enable_interrupt" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_sources" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8482 8502]))                  
+                :type "void")
+                nil [8456 8503])
+            ("pmc_disable_interrupt" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_sources" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8531 8551]))                  
+                :type "void")
+                nil [8504 8552])
+            ("pmc_get_interrupt_mask" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8585 8590]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [8553 8591])
+            ("pmc_get_status" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8616 8621]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [8592 8622])
+            ("pmc_set_fast_startup_input" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_inputs" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8799 8818]))                  
+                :type "void")
+                nil [8767 8819])
+            ("pmc_clr_fast_startup_input" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_inputs" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8852 8871]))                  
+                :type "void")
+                nil [8820 8872])
+            ("pmc_enable_sleepmode" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("uc_type" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9050 9066]))                  
+                :type "void")
+                nil [9024 9067])
+            ("pmc_enable_waitmode" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9093 9098]))                  
+                :type "void")
+                nil [9068 9099])
+            ("pmc_enable_backupmode" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9163 9168]))                  
+                :type "void")
+                nil [9136 9169])
+            ("pmc_enable_clock_failure_detector" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9265 9270]))                  
+                :type "void")
+                nil [9226 9271])
+            ("pmc_disable_clock_failure_detector" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9312 9317]))                  
+                :type "void")
+                nil [9272 9318])
+            ("pmc_set_writeprotect" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ul_enable" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9652 9671]))                  
+                :type "void")
+                nil [9626 9672])
+            ("pmc_get_writeprotect_status" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9710 9715]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [9673 9716]))          
+      :file "pmc.h"
+      :pointmax 15782
+      :fsize 16416
+      :lastmodtime '(23369 49172 945576 148000)
+      :unmatched-syntax '((close-paren 10230 . 10231) (close-paren 10230 . 10231) (close-paren 10230 . 10231) (close-paren 10230 . 10231))
+      :lexical-table 
+        '(("PMC_FAST_STARTUP_Msk" . ((semantic-list "(0x7FFFFu)" 2245 . 2255)))
+          ("SUPC_CR_KEY_PASSWD" . ((symbol "SUPC_CR_KEY" 2061 . 2072) (semantic-list "(0xA5U)" 2072 . 2079)))
+          ("PMC_PCK_0" . ((number "0" 2577 . 2578)))
+          ("PMC_PCK_1" . ((number "1" 2625 . 2626)))
+          ("PMC_PCK_2" . ((number "2" 2673 . 2674)))
+          ("PMC_H_INCLUDED")
+          ("PMC_TIMEOUT" . ((semantic-list "(2048)" 1778 . 1784)))
+          ("pmc_us_to_moscxtst" (spp-arg-list ("startup_us" "slowck_freq") 3449 . 3474) . ((semantic-list "((startup_us * slowck_freq / 8 / 1000000) < 0x100 ?  \\
+		(startup_us * slowck_freq / 8 / 1000000) : 0xFF)" 3483 . 3588)))
+          ("PMC_MASK_STATUS0" . ((semantic-list "(0xFFFFFFFC)" 1592 . 1604)))
+          ("PMC_MASK_STATUS1" . ((semantic-list "(0xFFFFFFFF)" 1684 . 1696)))
+          ("PMC_OSC_XTAL" . ((number "0" 2474 . 2475)))
+          ("CKGR_MOR_KEY_PASSWD" . ((symbol "CKGR_MOR_KEY" 1936 . 1948) (semantic-list "(0x37U)" 1948 . 1955)))
+          ("SUPC_MR_KEY_PASSWD" . ((symbol "SUPC_MR_KEY" 2145 . 2156) (semantic-list "(0xA5U)" 2156 . 2163)))
+          ("PMC_WPMR_WPKEY_PASSWD" . ((symbol "PMC_WPMR_WPKEY" 2365 . 2379) (semantic-list "((uint32_t) 0x504D43)" 2379 . 2400)))
+          ("PMC_OSC_BYPASS" . ((number "1" 2542 . 2543)))
+          )
+))
+  :file "!srv!share!Workspace!ADP_EXAMPLE2!ADP_EXAMPLE2!src!ASF!sam!drivers!pmc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

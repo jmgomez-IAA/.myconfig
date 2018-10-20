@@ -1,0 +1,2049 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [145 164])
+            ("stdio.h" include (:system-flag t) nil [165 183])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [222 243])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [222 243])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [222 243])
+            ("BOARD_FREQ_SLCK_XTAL" variable (:constant-flag t) nil [260 280])
+            ("BOARD_FREQ_MAINCK_XTAL" variable (:constant-flag t) nil [297 319])
+            ("REG_PMC_PCER0" variable (:constant-flag t) nil [486 499])
+            ("REG_PMC_PCSR0" variable (:constant-flag t) nil [520 533])
+            ("PMC_PIOC_ENABLE" variable (:constant-flag t) nil [554 569])
+            ("REG_WDT_CR" variable (:constant-flag t) nil [608 618])
+            ("REG_WDT_MR" variable (:constant-flag t) nil [639 649])
+            ("WDT_WDDIS" variable (:constant-flag t) nil [670 679])
+            ("REG_WDT_SR" variable (:constant-flag t) nil [701 711])
+            ("PCM_PIOA_ID" variable (:constant-flag t) nil [762 773])
+            ("PCM_PIOC_ID" variable (:constant-flag t) nil [785 796])
+            ("REG_PIOC_PER" variable (:constant-flag t) nil [828 840])
+            ("REG_PIOC_PDR" variable (:constant-flag t) nil [871 883])
+            ("REG_PIOC_PSR" variable (:constant-flag t) nil [915 927])
+            ("REG_PIOC_OER" variable (:constant-flag t) nil [949 961])
+            ("REG_PIOC_OER" variable (:constant-flag t) nil [949 961])
+            ("REG_PIOC_ODR" variable (:constant-flag t) nil [1020 1032])
+            ("REG_PIOC_ODR" variable (:constant-flag t) nil [1020 1032])
+            ("REG_PIOC_OSR" variable (:constant-flag t) nil [1093 1105])
+            ("REG_PIOC_OSR" variable (:constant-flag t) nil [1093 1105])
+            ("REG_PIOC_OSR" variable (:constant-flag t) nil [1093 1105])
+            ("REG_PIOC_WPMR" variable (:constant-flag t) nil [1155 1168])
+            ("REG_PIOC_WPMR" variable (:constant-flag t) nil [1155 1168])
+            ("REG_PIOC_WPMR" variable (:constant-flag t) nil [1155 1168])
+            ("REG_PIOC_SODR" variable (:constant-flag t) nil [1232 1245])
+            ("REG_PIOC_CODR" variable (:constant-flag t) nil [1309 1322])
+            ("REG_PIOC_ODSR" variable (:constant-flag t) nil [1365 1378])
+            ("REG_PIOC_PDSR" variable (:constant-flag t) nil [1427 1440])
+            ("PIOC_PORTPIN_23" variable (:constant-flag t) nil [1462 1477])
+            ("PIOC_LED_YELLOW" variable (:constant-flag t) nil [1494 1509])
+            ("PIOC_LED_YELLOW" variable (:constant-flag t) nil [1494 1509])
+            ("__disable_irq" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1548 1553]))                  
+                :type "void")
+                nil [1529 1602])
+            ("delay" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1617 1622]))                  
+                :type "void")
+                nil [1605 1694])
+            ("exit" function
+               (:typemodifiers ("extern")
+                :arguments 
+                  ( ("__status" variable (:type "int") (reparse-symbol arg-sub-list) [1750 1763]))                  
+                :type "void")
+                nil [1733 1789])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1800 1805]))                  
+                :type "int")
+                nil [1791 2991]))          
+      :file "code_led0.c"
+      :pointmax 2992
+      :fsize 2991
+      :lastmodtime '(23371 51015 845514 339000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("REG_WDT_MR" . ((symbol "0x400E1454U" 650 . 661)))
+          ("REG_PIOC_ODSR" . ((symbol "0x400E1238U" 1373 . 1384)))
+          ("BOARD_FREQ_STARTUP_US" . ((symbol "15625UL" 244 . 251)))
+          ("REG_PIOC_PER" . ((symbol "0x400E1200U" 841 . 852)))
+          ("REG_PIOC_PDSR" . ((symbol "0x400E123CU" 1435 . 1446)))
+          ("REG_PIOC_ODR" . ((symbol "0x400E1214U" 1033 . 1044)))
+          ("PIOC_LED_YELLOW" . ((symbol "PIOC_PORTPIN_23" 1511 . 1526)))
+          ("BOARD_FREQ_MAINCK_XTAL" . ((symbol "12000000UL" 320 . 330)))
+          ("REG_PIOC_CODR" . ((symbol "0x400E1234U" 1317 . 1328)))
+          ("REG_PIOC_PSR" . ((symbol "0x400E1208U" 928 . 939)))
+          ("PIOC_PORTPIN_23" . 
+              ((number "1" 1472 . 1473) (punctuation "<" 1474 . 1475) (punctuation "<" 1475 . 1476) (number "23" 1477 . 1479)))
+          ("REG_WDT_SR" . ((symbol "0x400E1458U" 712 . 723)))
+          ("REG_PIOC_OER" . ((symbol "0x400E1210U" 962 . 973)))
+          ("BOARD_FREQ_SLCK_XTAL" . ((symbol "32768UL" 281 . 288)))
+          ("REG_PIOC_SODR" . ((symbol "0x400E1230U" 1240 . 1251)))
+          ("REG_PMC_PCSR0" . ((symbol "0x400E0418U" 534 . 545)))
+          ("REG_PIOC_WPMR" . ((symbol "0x400E12E4U" 1166 . 1177)))
+          ("PCM_PIOA_ID" . ((number "11" 774 . 776)))
+          ("REG_PIOC_OSR" . ((symbol "0x400E1218U" 1106 . 1117)))
+          ("REG_WDT_CR" . ((symbol "0x400E1450U" 619 . 630)))
+          ("WDT_WDDIS" . ((symbol "0x00008000U" 681 . 692)))
+          ("PCM_PIOC_ID" . ((number "13" 797 . 799)))
+          ("REG_PMC_PCER0" . ((symbol "0x400E0410U" 500 . 511)))
+          ("REG_PIOC_PDR" . ((symbol "0x400E1204U" 884 . 895)))
+          ("PMC_PIOC_ENABLE" . 
+              ((number "1" 570 . 571) (punctuation "<" 571 . 572) (punctuation "<" 572 . 573) (number "13" 573 . 575)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("system_init_flash" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("ul_clk" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3483 3500]))                  )
+                (reparse-symbol extern-c-contents) [3459 5192])
+            ("SystemInit" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2897 2903]))                  )
+                (reparse-symbol extern-c-contents) [2880 3287])
+            ("SystemCoreClock" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :default-value "CHIP_FREQ_MAINCK_RC_4MHZ")
+                (reparse-symbol extern-c-contents) [2705 2757])
+            ("CHIP_FREQ_XTAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2612 2626])
+            ("CHIP_FREQ_XTAL_12M" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2539 2557]))          
+      :file "system_sam4s.c"
+      :pointmax 5284
+      :fsize 7886
+      :lastmodtime '(23371 34090 350540 944000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CHIP_FREQ_XTAL_12M" . ((semantic-list "(12000000UL)" 2558 . 2570)))
+          ("CHIP_FREQ_XTAL" . ((symbol "CHIP_FREQ_XTAL_12M" 2627 . 2645)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdint.h" include (:system-flag t) nil [2359 2378])
+            ("sam4sd32c.h" include nil nil [2379 2401])
+            ("_sfixed" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2429 2453])
+            ("_efixed" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2454 2478])
+            ("_etext" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2479 2502])
+            ("_srelocate" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2503 2530])
+            ("_erelocate" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2531 2558])
+            ("_szero" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2559 2582])
+            ("_ezero" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2583 2606])
+            ("_sstack" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2607 2631])
+            ("_estack" variable
+               (:typemodifiers ("extern")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [2632 2656])
+            ("main" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2705 2710]))                  
+                :type "int")
+                nil [2696 2711])
+            ("__libc_init_array" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2752 2757]))                  
+                :type "void")
+                nil [2729 2758])
+            ("Dummy_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2807 2812]))                  
+                :type "void")
+                nil [2788 2813])
+            ("NMI_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2871 2877]))                  
+                :type "void")
+                nil [2845 2925])
+            ("HardFault_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2952 2958]))                  
+                :type "void")
+                nil [2926 3006])
+            ("MemManage_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3033 3039]))                  
+                :type "void")
+                nil [3007 3087])
+            ("BusFault_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3114 3120]))                  
+                :type "void")
+                nil [3088 3168])
+            ("UsageFault_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3195 3201]))                  
+                :type "void")
+                nil [3169 3249])
+            ("SVC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3276 3282]))                  
+                :type "void")
+                nil [3250 3330])
+            ("DebugMon_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3357 3363]))                  
+                :type "void")
+                nil [3331 3411])
+            ("PendSV_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3438 3444]))                  
+                :type "void")
+                nil [3412 3492])
+            ("SysTick_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3519 3525]))                  
+                :type "void")
+                nil [3493 3573])
+            ("SUPC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3624 3630]))                  
+                :type "void")
+                nil [3602 3678])
+            ("RSTC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3701 3707]))                  
+                :type "void")
+                nil [3679 3755])
+            ("RTC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3778 3784]))                  
+                :type "void")
+                nil [3756 3832])
+            ("RTT_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3855 3861]))                  
+                :type "void")
+                nil [3833 3909])
+            ("WDT_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3932 3938]))                  
+                :type "void")
+                nil [3910 3986])
+            ("PMC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4009 4015]))                  
+                :type "void")
+                nil [3987 4063])
+            ("EFC0_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4086 4092]))                  
+                :type "void")
+                nil [4064 4140])
+            ("EFC1_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4163 4169]))                  
+                :type "void")
+                nil [4141 4217])
+            ("UART0_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4241 4247]))                  
+                :type "void")
+                nil [4219 4295])
+            ("UART1_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4318 4324]))                  
+                :type "void")
+                nil [4296 4372])
+            ("PIOA_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4395 4401]))                  
+                :type "void")
+                nil [4373 4449])
+            ("PIOB_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4472 4478]))                  
+                :type "void")
+                nil [4450 4526])
+            ("PIOC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4550 4556]))                  
+                :type "void")
+                nil [4528 4604])
+            ("USART0_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4628 4634]))                  
+                :type "void")
+                nil [4606 4682])
+            ("USART1_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4706 4712]))                  
+                :type "void")
+                nil [4684 4760])
+            ("HSMCI_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4785 4791]))                  
+                :type "void")
+                nil [4763 4839])
+            ("TWI0_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4863 4869]))                  
+                :type "void")
+                nil [4841 4917])
+            ("TWI1_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4940 4946]))                  
+                :type "void")
+                nil [4918 4994])
+            ("SPI_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5017 5023]))                  
+                :type "void")
+                nil [4995 5071])
+            ("SSC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5094 5100]))                  
+                :type "void")
+                nil [5072 5148])
+            ("TC0_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5171 5177]))                  
+                :type "void")
+                nil [5149 5225])
+            ("TC1_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5248 5254]))                  
+                :type "void")
+                nil [5226 5302])
+            ("TC2_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5325 5331]))                  
+                :type "void")
+                nil [5303 5379])
+            ("TC3_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5403 5409]))                  
+                :type "void")
+                nil [5381 5457])
+            ("TC4_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5482 5488]))                  
+                :type "void")
+                nil [5460 5536])
+            ("TC5_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5561 5567]))                  
+                :type "void")
+                nil [5539 5615])
+            ("ADC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5639 5645]))                  
+                :type "void")
+                nil [5617 5693])
+            ("DACC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5717 5723]))                  
+                :type "void")
+                nil [5695 5771])
+            ("PWM_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5795 5801]))                  
+                :type "void")
+                nil [5773 5849])
+            ("CRCCU_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5872 5878]))                  
+                :type "void")
+                nil [5850 5926])
+            ("ACC_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5949 5955]))                  
+                :type "void")
+                nil [5927 6003])
+            ("UDP_Handler" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6026 6032]))                  
+                :type "void")
+                nil [6004 6080])
+            ("exception_table" variable
+               (:constant-flag t
+                :default-value "{
+
+        /* Configure Initial Stack Pointer, using linker-generated symbols */
+        .pvStack = (void*) (&_estack),
+
+        .pfnReset_Handler      = (void*) Reset_Handler,
+        .pfnNMI_Handler        = (void*) NMI_Handler,
+        .pfnHardFault_Handler  = (void*) HardFault_Handler,
+        .pfnMemManage_Handler  = (void*) MemManage_Handler,
+        .pfnBusFault_Handler   = (void*) BusFault_Handler,
+        .pfnUsageFault_Handler = (void*) UsageFault_Handler,
+        .pfnReserved1_Handler  = (void*) (0UL),          /* Reserved */
+        .pfnReserved2_Handler  = (void*) (0UL),          /* Reserved */
+        .pfnReserved3_Handler  = (void*) (0UL),          /* Reserved */
+        .pfnReserved4_Handler  = (void*) (0UL),          /* Reserved */
+        .pfnSVC_Handler        = (void*) SVC_Handler,
+        .pfnDebugMon_Handler   = (void*) DebugMon_Handler,
+        .pfnReserved5_Handler  = (void*) (0UL),          /* Reserved */
+        .pfnPendSV_Handler     = (void*) PendSV_Handler,
+        .pfnSysTick_Handler    = (void*) SysTick_Handler,
+
+        /* Configurable interrupts */
+        .pfnSUPC_Handler   = (void*) SUPC_Handler,   /* 0  Supply Controller */
+        .pfnRSTC_Handler   = (void*) RSTC_Handler,   /* 1  Reset Controller */
+        .pfnRTC_Handler    = (void*) RTC_Handler,    /* 2  Real Time Clock */
+        .pfnRTT_Handler    = (void*) RTT_Handler,    /* 3  Real Time Timer */
+        .pfnWDT_Handler    = (void*) WDT_Handler,    /* 4  Watchdog Timer */
+        .pfnPMC_Handler    = (void*) PMC_Handler,    /* 5  Power Management Controller */
+        .pfnEFC0_Handler   = (void*) EFC0_Handler,   /* 6  Enhanced Embedded Flash Controller 0 */
+        .pfnEFC1_Handler   = (void*) EFC1_Handler,   /* 7  Enhanced Embedded Flash Controller 1 */
+        .pfnUART0_Handler  = (void*) UART0_Handler,  /* 8  UART 0 */
+        .pfnUART1_Handler  = (void*) UART1_Handler,  /* 9  UART 1 */
+        .pvReserved10      = (void*) (0UL),          /* 10 Reserved */
+        .pfnPIOA_Handler   = (void*) PIOA_Handler,   /* 11 Parallel I/O Controller A */
+        .pfnPIOB_Handler   = (void*) PIOB_Handler,   /* 12 Parallel I/O Controller B */
+        .pfnPIOC_Handler   = (void*) PIOC_Handler,   /* 13 Parallel I/O Controller C */
+        .pfnUSART0_Handler = (void*) USART0_Handler, /* 14 USART 0 */
+        .pfnUSART1_Handler = (void*) USART1_Handler, /* 15 USART 1 */
+        .pvReserved16      = (void*) (0UL),          /* 16 Reserved */
+        .pvReserved17      = (void*) (0UL),          /* 17 Reserved */
+        .pfnHSMCI_Handler  = (void*) HSMCI_Handler,  /* 18 Multimedia Card Interface */
+        .pfnTWI0_Handler   = (void*) TWI0_Handler,   /* 19 Two Wire Interface 0 */
+        .pfnTWI1_Handler   = (void*) TWI1_Handler,   /* 20 Two Wire Interface 1 */
+        .pfnSPI_Handler    = (void*) SPI_Handler,    /* 21 Serial Peripheral Interface */
+        .pfnSSC_Handler    = (void*) SSC_Handler,    /* 22 Synchronous Serial Controller */
+        .pfnTC0_Handler    = (void*) TC0_Handler,    /* 23 Timer/Counter 0 */
+        .pfnTC1_Handler    = (void*) TC1_Handler,    /* 24 Timer/Counter 1 */
+        .pfnTC2_Handler    = (void*) TC2_Handler,    /* 25 Timer/Counter 2 */
+        .pfnTC3_Handler    = (void*) TC3_Handler,    /* 26 Timer/Counter 3 */
+        .pfnTC4_Handler    = (void*) TC4_Handler,    /* 27 Timer/Counter 4 */
+        .pfnTC5_Handler    = (void*) TC5_Handler,    /* 28 Timer/Counter 5 */
+        .pfnADC_Handler    = (void*) ADC_Handler,    /* 29 Analog To Digital Converter */
+        .pfnDACC_Handler   = (void*) DACC_Handler,   /* 30 Digital To Analog Converter */
+        .pfnPWM_Handler    = (void*) PWM_Handler,    /* 31 Pulse Width Modulation */
+        .pfnCRCCU_Handler  = (void*) CRCCU_Handler,  /* 32 CRC Calculation Unit */
+        .pfnACC_Handler    = (void*) ACC_Handler,    /* 33 Analog Comparator */
+        .pfnUDP_Handler    = (void*) UDP_Handler     /* 34 USB Device Port */
+}"
+                :type ("DeviceVectors" type (:type "class") nil nil))
+                nil [6142 10125])
+            ("Reset_Handler" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10276 10281]))                  
+                :type "void")
+                nil [10257 11051])
+            ("Dummy_Handler" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [11133 11138]))                  
+                :type "void")
+                nil [11114 11172]))          
+      :file "startup_sam4s.c"
+      :pointmax 11173
+      :fsize 11172
+      :lastmodtime '(23371 47662 343681 818000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_SAM4SD32C_" variable (:constant-flag t) nil [2366 2377])
+            ("ACC_ACR_HYST_90MV_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [28034 28055])
+            ("ACC_ACR_HYST_50MV_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27985 28006])
+            ("CHIP_FREQ_FWS_5" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27797 27812])
+            ("CHIP_FREQ_FWS_4" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27686 27701])
+            ("CHIP_FREQ_FWS_3" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27575 27590])
+            ("CHIP_FREQ_FWS_2" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27464 27479])
+            ("CHIP_FREQ_FWS_1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27353 27368])
+            ("CHIP_FREQ_FWS_0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [27242 27257])
+            ("CHIP_FLASH_WRITE_WAIT_STATE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [26304 26331])
+            ("CHIP_FREQ_XTAL_32K" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [26215 26233])
+            ("CHIP_FREQ_CPU_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [26161 26178])
+            ("CHIP_FREQ_MAINCK_RC_12MHZ" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [26108 26133])
+            ("CHIP_FREQ_MAINCK_RC_8MHZ" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [26056 26080])
+            ("CHIP_FREQ_MAINCK_RC_4MHZ" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [26004 26028])
+            ("CHIP_FREQ_SLCK_RC_MAX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25954 25975])
+            ("CHIP_FREQ_SLCK_RC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25904 25921])
+            ("CHIP_FREQ_SLCK_RC_MIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25854 25875])
+            ("USB_DEVICE_MAX_EP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25584 25601])
+            ("NB_CH_DAC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25552 25561])
+            ("NB_CH_ADC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25519 25528])
+            ("CHIP_CIDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25478 25487])
+            ("CHIP_JTAGID" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25437 25448])
+            ("EBI_CS3_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25151 25163])
+            ("EBI_CS2_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25077 25089])
+            ("EBI_CS1_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [25003 25015])
+            ("EBI_CS0_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24929 24941])
+            ("IRAM_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24860 24869])
+            ("IROM_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24791 24800])
+            ("IFLASH1_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24697 24709])
+            ("IFLASH0_ADDR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24599 24611])
+            ("IFLASH_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24537 24548])
+            ("IRAM_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24493 24502])
+            ("IFLASH1_NB_OF_LOCK_BITS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24453 24476])
+            ("IFLASH1_NB_OF_PAGES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24412 24431])
+            ("IFLASH1_LOCK_REGION_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24371 24395])
+            ("IFLASH1_PAGE_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24331 24348])
+            ("IFLASH1_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24286 24298])
+            ("IFLASH0_NB_OF_LOCK_BITS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24246 24269])
+            ("IFLASH0_NB_OF_PAGES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24205 24224])
+            ("IFLASH0_LOCK_REGION_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24164 24188])
+            ("IFLASH0_PAGE_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24124 24141])
+            ("IFLASH0_SIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [24079 24091])
+            ("GPBR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [23401 23405])
+            ("RTC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [23317 23320])
+            ("WDT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [23233 23236])
+            ("RTT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [23149 23152])
+            ("SUPC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [23065 23069])
+            ("RSTC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22981 22985])
+            ("PIOC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22897 22901])
+            ("PIOB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22813 22817])
+            ("PDC_PIOA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22729 22737])
+            ("PIOA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22645 22649])
+            ("EFC1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22561 22565])
+            ("EFC0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22477 22481])
+            ("PDC_UART1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22393 22402])
+            ("UART1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22309 22314])
+            ("CHIPID" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22225 22231])
+            ("PDC_UART0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22141 22150])
+            ("UART0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [22057 22062])
+            ("PMC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21973 21976])
+            ("MATRIX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21889 21895])
+            ("SMC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21805 21808])
+            ("CMCC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21721 21725])
+            ("CRCCU" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21637 21642])
+            ("ACC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21553 21556])
+            ("PDC_DACC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21469 21477])
+            ("DACC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21385 21389])
+            ("PDC_ADC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21301 21308])
+            ("ADC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21217 21220])
+            ("UDP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21133 21136])
+            ("PDC_USART1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [21049 21059])
+            ("USART1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20965 20971])
+            ("PDC_USART0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20881 20891])
+            ("USART0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20797 20803])
+            ("PDC_PWM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20713 20720])
+            ("PWM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20629 20632])
+            ("PDC_TWI1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20545 20553])
+            ("TWI1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20461 20465])
+            ("PDC_TWI0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20377 20385])
+            ("TWI0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20293 20297])
+            ("TC1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20209 20212])
+            ("TC0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20125 20128])
+            ("PDC_SPI" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [20041 20048])
+            ("SPI" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [19957 19960])
+            ("PDC_SSC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [19873 19880])
+            ("SSC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [19789 19792])
+            ("PDC_HSMCI" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [19705 19714])
+            ("HSMCI" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [19621 19626])
+            ("ID_PERIPH_COUNT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15787 15802])
+            ("ID_UDP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15726 15732])
+            ("ID_ACC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15664 15670])
+            ("ID_CRCCU" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15597 15605])
+            ("ID_PWM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15530 15536])
+            ("ID_DACC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15457 15464])
+            ("ID_ADC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15385 15391])
+            ("ID_TC5" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15325 15331])
+            ("ID_TC4" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15265 15271])
+            ("ID_TC3" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15205 15211])
+            ("ID_TC2" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15145 15151])
+            ("ID_TC1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15085 15091])
+            ("ID_TC0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [15025 15031])
+            ("ID_SSC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14951 14957])
+            ("ID_SPI" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14879 14885])
+            ("ID_TWI1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14813 14820])
+            ("ID_TWI0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14747 14754])
+            ("ID_HSMCI" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14675 14683])
+            ("ID_USART1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14620 14629])
+            ("ID_USART0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14565 14574])
+            ("ID_PIOC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14494 14501])
+            ("ID_PIOB" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14423 14430])
+            ("ID_PIOA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14352 14359])
+            ("ID_SMC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14283 14289])
+            ("ID_UART1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14230 14238])
+            ("ID_UART0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14177 14185])
+            ("ID_EFC1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14095 14102])
+            ("ID_EFC0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [14013 14020])
+            ("ID_PMC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13941 13947])
+            ("ID_WDT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13882 13888])
+            ("ID_RTT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13822 13828])
+            ("ID_RTC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13762 13768])
+            ("ID_RSTC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13700 13707])
+            ("ID_SUPC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13637 13644])
+            ("__Vendor_SysTickConfig" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10875 10897])
+            ("__NVIC_PRIO_BITS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10783 10799])
+            ("__FPU_PRESENT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10704 10717])
+            ("__MPU_PRESENT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10629 10642])
+            ("__CM4_REV" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10507 10516])
+            ("WDT_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10408 10414]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10382 10415])
+            ("USART1_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10374 10380]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10348 10381])
+            ("USART0_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10340 10346]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10314 10347])
+            ("UDP_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10306 10312]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10280 10313])
+            ("UART1_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10272 10278]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10246 10279])
+            ("UART0_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10238 10244]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10212 10245])
+            ("TWI1_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10204 10210]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10178 10211])
+            ("TWI0_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10170 10176]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10144 10177])
+            ("TC5_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10136 10142]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10110 10143])
+            ("TC4_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10102 10108]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10076 10109])
+            ("TC3_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10068 10074]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10042 10075])
+            ("TC2_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10034 10040]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10008 10041])
+            ("TC1_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10000 10006]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9974 10007])
+            ("TC0_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9966 9972]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9940 9973])
+            ("SUPC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9932 9938]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9906 9939])
+            ("SSC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9898 9904]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9872 9905])
+            ("SPI_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9864 9870]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9838 9871])
+            ("RTT_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9830 9836]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9804 9837])
+            ("RTC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9796 9802]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9770 9803])
+            ("RSTC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9762 9768]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9736 9769])
+            ("PWM_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9728 9734]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9702 9735])
+            ("PMC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9694 9700]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9668 9701])
+            ("PIOC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9660 9666]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9634 9667])
+            ("PIOB_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9626 9632]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9600 9633])
+            ("PIOA_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9592 9598]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9566 9599])
+            ("HSMCI_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9558 9564]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9532 9565])
+            ("EFC1_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9524 9530]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9498 9531])
+            ("EFC0_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9490 9496]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9464 9497])
+            ("DACC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9456 9462]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9430 9463])
+            ("CRCCU_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9422 9428]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9396 9429])
+            ("ADC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9388 9394]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9362 9395])
+            ("ACC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9354 9360]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9328 9361])
+            ("SysTick_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9292 9298]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9266 9299])
+            ("PendSV_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9258 9264]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9232 9265])
+            ("DebugMon_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9224 9230]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9198 9231])
+            ("SVC_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9190 9196]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9164 9197])
+            ("UsageFault_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9156 9162]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9130 9163])
+            ("BusFault_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9122 9128]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9096 9129])
+            ("MemManage_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9088 9094]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9062 9095])
+            ("HardFault_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9054 9060]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9028 9061])
+            ("NMI_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9020 9026]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8994 9027])
+            ("Reset_Handler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8986 8992]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8960 8993])
+            ("DeviceVectors" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_DeviceVectors" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [6489 8928])
+            ("_DeviceVectors" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("pvStack" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6545 6559])
+                    ("pfnReset_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6591 6614])
+                    ("pfnNMI_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6617 6638])
+                    ("pfnHardFault_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6641 6668])
+                    ("pfnMemManage_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6671 6698])
+                    ("pfnBusFault_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6701 6727])
+                    ("pfnUsageFault_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6730 6758])
+                    ("pfnReserved1_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6761 6788])
+                    ("pfnReserved2_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6791 6818])
+                    ("pfnReserved3_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6821 6848])
+                    ("pfnReserved4_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6851 6878])
+                    ("pfnSVC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6881 6902])
+                    ("pfnDebugMon_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6905 6931])
+                    ("pfnReserved5_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6934 6961])
+                    ("pfnPendSV_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6964 6988])
+                    ("pfnSysTick_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [6991 7016])
+                    ("pfnSUPC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7048 7070])
+                    ("pfnRSTC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7102 7124])
+                    ("pfnRTC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7155 7176])
+                    ("pfnRTT_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7207 7228])
+                    ("pfnWDT_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7259 7280])
+                    ("pfnPMC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7310 7331])
+                    ("pfnEFC0_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7374 7396])
+                    ("pfnEFC1_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7447 7469])
+                    ("pfnUART0_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7520 7543])
+                    ("pfnUART1_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7563 7586])
+                    ("pvReserved10" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7606 7625])
+                    ("pfnPIOA_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7628 7650])
+                    ("pfnPIOB_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7690 7712])
+                    ("pfnPIOC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7752 7774])
+                    ("pfnUSART0_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7814 7838])
+                    ("pfnUSART1_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7858 7882])
+                    ("pvReserved16" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7902 7921])
+                    ("pvReserved17" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7924 7943])
+                    ("pfnHSMCI_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [7946 7969])
+                    ("pfnTWI0_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8008 8030])
+                    ("pfnTWI1_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8065 8087])
+                    ("pfnSPI_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8122 8143])
+                    ("pfnSSC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8186 8207])
+                    ("pfnTC0_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8252 8273])
+                    ("pfnTC1_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8304 8325])
+                    ("pfnTC2_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8356 8377])
+                    ("pfnTC3_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8408 8429])
+                    ("pfnTC4_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8460 8481])
+                    ("pfnTC5_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8512 8533])
+                    ("pfnADC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8564 8585])
+                    ("pfnDACC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8628 8650])
+                    ("pfnPWM_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8692 8713])
+                    ("pfnCRCCU_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8751 8774])
+                    ("pfnACC_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8808 8829])
+                    ("pfnUDP_Handler" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [8862 8883]))                  )
+                (reparse-symbol extern-c-contents) [6489 8928])
+            ("IRQn_Type" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("IRQn" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [3044 6487])
+            ("IRQn" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("NonMaskableInt_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3170 3173)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3146 3173])
+                    ("HardFault_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3250 3253)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3226 3253])
+                    ("MemoryManagement_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3330 3333)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3306 3333])
+                    ("BusFault_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3410 3413)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3386 3413])
+                    ("UsageFault_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3490 3493)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3466 3493])
+                    ("SVCall_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3570 3572)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3546 3572])
+                    ("DebugMonitor_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3650 3652)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3626 3652])
+                    ("PendSV_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3730 3732)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3706 3732])
+                    ("SysTick_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3810 3812)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3786 3812])
+                    ("SUPC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (3974 3975)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3950 3975])
+                    ("RSTC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4049 4050)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4025 4050])
+                    ("RTC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4123 4124)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4099 4124])
+                    ("RTT_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4195 4196)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4171 4196])
+                    ("WDT_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4267 4268)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4243 4268])
+                    ("PMC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4338 4339)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4314 4339])
+                    ("EFC0_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4422 4423)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4398 4423])
+                    ("EFC1_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4516 4517)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4492 4517])
+                    ("UART0_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4610 4611)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4586 4611])
+                    ("UART1_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4675 4676)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4651 4676])
+                    ("PIOA_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4739 4741)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4716 4741])
+                    ("PIOB_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4822 4824)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4799 4824])
+                    ("PIOC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4905 4907)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4882 4907])
+                    ("USART0_IRQn" variable
+                       (:constant-flag t
+                        :default-value (4988 4990)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4965 4990])
+                    ("USART1_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5055 5057)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5032 5057])
+                    ("HSMCI_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5122 5124)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5099 5124])
+                    ("TWI0_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5206 5208)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5183 5208])
+                    ("TWI1_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5284 5286)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5261 5286])
+                    ("SPI_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5362 5364)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5339 5364])
+                    ("SSC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5446 5448)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5423 5448])
+                    ("TC0_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5532 5534)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5509 5534])
+                    ("TC1_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5604 5606)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5581 5606])
+                    ("TC2_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5676 5678)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5653 5678])
+                    ("TC3_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5748 5750)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5725 5750])
+                    ("TC4_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5820 5822)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5797 5822])
+                    ("TC5_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5892 5894)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5869 5894])
+                    ("ADC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (5964 5966)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5941 5966])
+                    ("DACC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (6048 6050)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6025 6050])
+                    ("PWM_IRQn" variable
+                       (:constant-flag t
+                        :default-value (6133 6135)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6110 6135])
+                    ("CRCCU_IRQn" variable
+                       (:constant-flag t
+                        :default-value (6212 6214)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6189 6214])
+                    ("ACC_IRQn" variable
+                       (:constant-flag t
+                        :default-value (6291 6293)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6268 6293])
+                    ("UDP_IRQn" variable
+                       (:constant-flag t
+                        :default-value (6365 6367)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6342 6367])
+                    ("PERIPH_COUNT_IRQn" variable
+                       (:constant-flag t
+                        :default-value (6438 6440)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6415 6440]))                  )
+                (reparse-symbol extern-c-contents) [3044 6487])
+            ("stdint.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2717 2736]))          
+      :file "sam4sd32c.h"
+      :pointmax 28139
+      :fsize 28138
+      :lastmodtime '(23371 45084 660979 656000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__NVIC_PRIO_BITS" . ((number "4" 10806 . 10807)))
+          ("ID_TC2" . ((semantic-list "(25)" 15155 . 15159)))
+          ("ID_CRCCU" . ((semantic-list "(32)" 15607 . 15611)))
+          ("EFC1" . ((semantic-list "((Efc    *)0x400E0C00U)" 22572 . 22595)))
+          ("PIOB" . ((semantic-list "((Pio    *)0x400E1000U)" 22824 . 22847)))
+          ("IFLASH_SIZE" . ((semantic-list "(IFLASH0_SIZE+IFLASH1_SIZE)" 24562 . 24589)))
+          ("CHIP_FREQ_MAINCK_RC_4MHZ" . ((semantic-list "(4000000UL)" 26036 . 26047)))
+          ("CHIP_FREQ_FWS_1" . ((semantic-list "(40000000UL)" 27385 . 27397)))
+          ("ID_SPI" . ((semantic-list "(21)" 14889 . 14893)))
+          ("ID_TC3" . ((semantic-list "(26)" 15215 . 15219)))
+          ("CMCC" . ((semantic-list "((Cmcc   *)0x4007C000U)" 21732 . 21755)))
+          ("CHIPID" . ((semantic-list "((Chipid *)0x400E0740U)" 22236 . 22259)))
+          ("PIOC" . ((semantic-list "((Pio    *)0x400E1200U)" 22908 . 22931)))
+          ("IFLASH1_SIZE" . ((semantic-list "(0x100000u)" 24311 . 24322)))
+          ("NB_CH_DAC" . ((semantic-list "(2UL)" 25570 . 25575)))
+          ("CHIP_FREQ_FWS_2" . ((semantic-list "(60000000UL)" 27496 . 27508)))
+          ("ID_RTT" . ((semantic-list "( 3)" 13832 . 13836)))
+          ("ID_TC4" . ((semantic-list "(27)" 15275 . 15279)))
+          ("ID_ACC" . ((semantic-list "(33)" 15674 . 15678)))
+          ("CRCCU" . ((semantic-list "((Crccu  *)0x40044000U)" 21648 . 21671)))
+          ("MATRIX" . ((semantic-list "((Matrix *)0x400E0200U)" 21900 . 21923)))
+          ("IFLASH0_PAGE_SIZE" . ((semantic-list "(512u)" 24149 . 24155)))
+          ("IFLASH1_ADDR" . ((semantic-list "(IFLASH0_ADDR+IFLASH0_SIZE)" 24710 . 24737)))
+          ("EBI_CS1_ADDR" . ((semantic-list "(0x61000000u)" 25016 . 25029)))
+          ("CHIP_JTAGID" . ((semantic-list "(0x05B3203FUL)" 25455 . 25469)))
+          ("CHIP_FREQ_SLCK_RC" . ((semantic-list "(32000UL)" 25936 . 25945)))
+          ("CHIP_FREQ_FWS_3" . ((semantic-list "(80000000UL)" 27607 . 27619)))
+          ("__MPU_PRESENT" . ((number "1" 10652 . 10653)))
+          ("ID_HSMCI" . ((semantic-list "(18)" 14685 . 14689)))
+          ("ID_TC5" . ((semantic-list "(28)" 15335 . 15339)))
+          ("ID_UDP" . ((semantic-list "(34)" 15736 . 15740)))
+          ("TWI0" . ((semantic-list "((Twi    *)0x40018000U)" 20304 . 20327)))
+          ("PDC_TWI0" . ((semantic-list "((Pdc    *)0x40018100U)" 20388 . 20411)))
+          ("CHIP_FREQ_FWS_4" . ((semantic-list "(100000000UL)" 27718 . 27731)))
+          ("ID_UART0" . ((semantic-list "( 8)" 14187 . 14191)))
+          ("ID_SSC" . ((semantic-list "(22)" 14961 . 14965)))
+          ("ID_PERIPH_COUNT" . ((semantic-list "(35)" 15803 . 15807)))
+          ("TC0" . ((semantic-list "((Tc     *)0x40010000U)" 20136 . 20159)))
+          ("TWI1" . ((semantic-list "((Twi    *)0x4001C000U)" 20472 . 20495)))
+          ("PDC_TWI1" . ((semantic-list "((Pdc    *)0x4001C100U)" 20556 . 20579)))
+          ("PMC" . ((semantic-list "((Pmc    *)0x400E0400U)" 21984 . 22007)))
+          ("RSTC" . ((semantic-list "((Rstc   *)0x400E1400U)" 22992 . 23015)))
+          ("RTC" . ((semantic-list "((Rtc    *)0x400E1460U)" 23328 . 23351)))
+          ("CHIP_FREQ_MAINCK_RC_8MHZ" . ((semantic-list "(8000000UL)" 26088 . 26099)))
+          ("CHIP_FREQ_FWS_5" . ((semantic-list "(123000000UL)" 27829 . 27842)))
+          ("ID_UART1" . ((semantic-list "( 9)" 14240 . 14244)))
+          ("ID_USART0" . ((semantic-list "(14)" 14575 . 14579)))
+          ("ID_ADC" . ((semantic-list "(29)" 15395 . 15399)))
+          ("HSMCI" . ((semantic-list "((Hsmci  *)0x40000000U)" 19632 . 19655)))
+          ("PDC_HSMCI" . ((semantic-list "((Pdc    *)0x40000100U)" 19716 . 19739)))
+          ("TC1" . ((semantic-list "((Tc     *)0x40014000U)" 20220 . 20243)))
+          ("PWM" . ((semantic-list "((Pwm    *)0x40020000U)" 20640 . 20663)))
+          ("PDC_PWM" . ((semantic-list "((Pdc    *)0x40020100U)" 20724 . 20747)))
+          ("SMC" . ((semantic-list "((Smc    *)0x400E0000U)" 21816 . 21839)))
+          ("WDT" . ((semantic-list "((Wdt    *)0x400E1450U)" 23244 . 23267)))
+          ("GPBR" . ((semantic-list "((Gpbr   *)0x400E1490U)" 23412 . 23435)))
+          ("IFLASH0_SIZE" . ((semantic-list "(0x100000u)" 24104 . 24115)))
+          ("IFLASH1_PAGE_SIZE" . ((semantic-list "(512u)" 24356 . 24362)))
+          ("CHIP_FREQ_SLCK_RC_MAX" . ((semantic-list "(44000UL)" 25986 . 25995)))
+          ("CHIP_FREQ_MAINCK_RC_12MHZ" . ((semantic-list "(12000000UL)" 26140 . 26152)))
+          ("ID_SUPC" . ((semantic-list "( 0)" 13647 . 13651)))
+          ("ID_USART1" . ((semantic-list "(15)" 14630 . 14634)))
+          ("ID_DACC" . ((semantic-list "(30)" 15467 . 15471)))
+          ("UART0" . ((semantic-list "((Uart   *)0x400E0600U)" 22068 . 22091)))
+          ("PDC_UART0" . ((semantic-list "((Pdc    *)0x400E0700U)" 22152 . 22175)))
+          ("IFLASH0_LOCK_REGION_SIZE" . ((semantic-list "(8192u)" 24189 . 24196)))
+          ("IFLASH0_ADDR" . ((semantic-list "(0x00400000u)" 24612 . 24625)))
+          ("EBI_CS0_ADDR" . ((semantic-list "(0x60000000u)" 24942 . 24955)))
+          ("CHIP_FREQ_SLCK_RC_MIN" . ((semantic-list "(20000UL)" 25886 . 25895)))
+          ("CHIP_FLASH_WRITE_WAIT_STATE" . ((semantic-list "(6U)" 26336 . 26340)))
+          ("_SAM4SD32C_")
+          ("ID_EFC0" . ((semantic-list "( 6)" 14023 . 14027)))
+          ("ID_PIOA" . ((semantic-list "(11)" 14362 . 14366)))
+          ("SPI" . ((semantic-list "((Spi    *)0x40008000U)" 19968 . 19991)))
+          ("PDC_SPI" . ((semantic-list "((Pdc    *)0x40008100U)" 20052 . 20075)))
+          ("UART1" . ((semantic-list "((Uart   *)0x400E0800U)" 22320 . 22343)))
+          ("PDC_UART1" . ((semantic-list "((Pdc    *)0x400E0900U)" 22404 . 22427)))
+          ("EBI_CS3_ADDR" . ((semantic-list "(0x63000000u)" 25164 . 25177)))
+          ("__FPU_PRESENT" . ((number "0" 10727 . 10728)))
+          ("ID_EFC1" . ((semantic-list "( 7)" 14105 . 14109)))
+          ("ID_PIOB" . ((semantic-list "(12)" 14433 . 14437)))
+          ("ACC" . ((semantic-list "((Acc    *)0x40040000U)" 21564 . 21587)))
+          ("RTT" . ((semantic-list "((Rtt    *)0x400E1430U)" 23160 . 23183)))
+          ("IFLASH0_NB_OF_PAGES" . ((semantic-list "(2048u)" 24230 . 24237)))
+          ("CHIP_CIDR" . ((semantic-list "(0x29A70EE0UL)" 25496 . 25510)))
+          ("CHIP_FREQ_CPU_MAX" . ((semantic-list "(120000000UL)" 26193 . 26206)))
+          ("CHIP_FREQ_XTAL_32K" . ((semantic-list "(32768UL)" 26247 . 26256)))
+          ("ACC_ACR_HYST_90MV_MAX" . ((semantic-list "(0x11UL)" 28066 . 28074)))
+          ("ID_PIOC" . ((semantic-list "(13)" 14504 . 14508)))
+          ("UDP" . ((semantic-list "((Udp    *)0x40034000U)" 21144 . 21167)))
+          ("IFLASH0_NB_OF_LOCK_BITS" . ((semantic-list "(128u)" 24271 . 24277)))
+          ("IFLASH1_LOCK_REGION_SIZE" . ((semantic-list "(8192u)" 24396 . 24403)))
+          ("IFLASH1_NB_OF_PAGES" . ((semantic-list "(2048u)" 24437 . 24444)))
+          ("IRAM_SIZE" . ((semantic-list "(0x28000u)" 24518 . 24528)))
+          ("NB_CH_ADC" . ((semantic-list "(15UL)" 25537 . 25543)))
+          ("ACC_ACR_HYST_50MV_MAX" . ((semantic-list "(0x01UL)" 28017 . 28025)))
+          ("__CM4_REV" . ((number "0x0001" 10530 . 10536)))
+          ("__Vendor_SysTickConfig" . ((number "0" 10898 . 10899)))
+          ("SSC" . ((semantic-list "((Ssc    *)0x40004000U)" 19800 . 19823)))
+          ("PDC_SSC" . ((semantic-list "((Pdc    *)0x40004100U)" 19884 . 19907)))
+          ("IFLASH1_NB_OF_LOCK_BITS" . ((semantic-list "(128u)" 24478 . 24484)))
+          ("IRAM_ADDR" . ((semantic-list "(0x20000000u)" 24873 . 24886)))
+          ("USB_DEVICE_MAX_EP" . ((semantic-list "(8UL)" 25602 . 25607)))
+          ("ID_RTC" . ((semantic-list "( 2)" 13772 . 13776)))
+          ("ID_PMC" . ((semantic-list "( 5)" 13951 . 13955)))
+          ("ID_TWI0" . ((semantic-list "(19)" 14757 . 14761)))
+          ("ID_TC0" . ((semantic-list "(23)" 15035 . 15039)))
+          ("USART0" . ((semantic-list "((Usart  *)0x40024000U)" 20808 . 20831)))
+          ("PDC_USART0" . ((semantic-list "((Pdc    *)0x40024100U)" 20892 . 20915)))
+          ("ADC" . ((semantic-list "((Adc    *)0x40038000U)" 21228 . 21251)))
+          ("PDC_ADC" . ((semantic-list "((Pdc    *)0x40038100U)" 21312 . 21335)))
+          ("DACC" . ((semantic-list "((Dacc   *)0x4003C000U)" 21396 . 21419)))
+          ("PDC_DACC" . ((semantic-list "((Pdc    *)0x4003C100U)" 21480 . 21503)))
+          ("SUPC" . ((semantic-list "((Supc   *)0x400E1410U)" 23076 . 23099)))
+          ("IROM_ADDR" . ((semantic-list "(0x00800000u)" 24804 . 24817)))
+          ("EBI_CS2_ADDR" . ((semantic-list "(0x62000000u)" 25090 . 25103)))
+          ("ID_RSTC" . ((semantic-list "( 1)" 13710 . 13714)))
+          ("ID_WDT" . ((semantic-list "( 4)" 13892 . 13896)))
+          ("ID_SMC" . ((semantic-list "(10)" 14293 . 14297)))
+          ("ID_TWI1" . ((semantic-list "(20)" 14823 . 14827)))
+          ("ID_TC1" . ((semantic-list "(24)" 15095 . 15099)))
+          ("ID_PWM" . ((semantic-list "(31)" 15540 . 15544)))
+          ("USART1" . ((semantic-list "((Usart  *)0x40028000U)" 20976 . 20999)))
+          ("PDC_USART1" . ((semantic-list "((Pdc    *)0x40028100U)" 21060 . 21083)))
+          ("EFC0" . ((semantic-list "((Efc    *)0x400E0A00U)" 22488 . 22511)))
+          ("PIOA" . ((semantic-list "((Pio    *)0x400E0E00U)" 22656 . 22679)))
+          ("PDC_PIOA" . ((semantic-list "((Pdc    *)0x400E0F68U)" 22740 . 22763)))
+          ("CHIP_FREQ_FWS_0" . ((semantic-list "(20000000UL)" 27274 . 27286)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SYSTEM_SAM4S_H_INCLUDED" variable (:constant-flag t) nil [2378 2401])
+            ("system_init_flash" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("dw_clk" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2934 2950]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2911 2951])
+            ("SystemCoreClockUpdate" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2874 2879]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2847 2880])
+            ("SystemInit" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2736 2741]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2720 2742])
+            ("SystemCoreClock" variable
+               (:type ("uint32_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [2526 2558])
+            ("stdint.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2505 2524]))          
+      :file "system_sam4s.h"
+      :pointmax 3081
+      :fsize 3080
+      :lastmodtime '(23371 44841 175632 63000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SYSTEM_SAM4S_H_INCLUDED")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [145 164])
+            ("stdio.h" include (:system-flag t) nil [165 183])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [222 243])
+            ("BOARD_FREQ_SLCK_XTAL" variable (:constant-flag t) nil [260 280])
+            ("BOARD_FREQ_MAINCK_XTAL" variable (:constant-flag t) nil [297 319])
+            ("REG_PMC_PCER0" variable (:constant-flag t) nil [486 499])
+            ("REG_PMC_PCSR0" variable (:constant-flag t) nil [520 533])
+            ("PMC_PIOC_ENABLE" variable (:constant-flag t) nil [554 569])
+            ("REG_WDT_CR" variable (:constant-flag t) nil [608 618])
+            ("REG_WDT_MR" variable (:constant-flag t) nil [639 649])
+            ("WDT_WDDIS" variable (:constant-flag t) nil [670 679])
+            ("REG_WDT_SR" variable (:constant-flag t) nil [701 711])
+            ("PCM_PIOA_ID" variable (:constant-flag t) nil [762 773])
+            ("PCM_PIOC_ID" variable (:constant-flag t) nil [785 796])
+            ("REG_PIOC_PER" variable (:constant-flag t) nil [828 840])
+            ("REG_PIOC_PDR" variable (:constant-flag t) nil [871 883])
+            ("REG_PIOC_PSR" variable (:constant-flag t) nil [915 927])
+            ("REG_PIOC_OER" variable (:constant-flag t) nil [949 961])
+            ("REG_PIOC_ODR" variable (:constant-flag t) nil [1020 1032])
+            ("REG_PIOC_OSR" variable (:constant-flag t) nil [1093 1105])
+            ("REG_PIOC_SODR" variable (:constant-flag t) nil [1232 1245])
+            ("REG_PIOC_CODR" variable (:constant-flag t) nil [1309 1322])
+            ("REG_PIOC_ODSR" variable (:constant-flag t) nil [1365 1378])
+            ("REG_PIOC_PDSR" variable (:constant-flag t) nil [1427 1440])
+            ("PIOC_PORTPIN_23" variable (:constant-flag t) nil [1462 1477])
+            ("PIOC_LED_YELLOW" variable (:constant-flag t) nil [1494 1509])
+            ("__disable_irq" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1548 1553]))                  
+                :type "void")
+                nil [1529 1602])
+            ("delay" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1617 1622]))                  
+                :type "void")
+                nil [1605 1694])
+            ("exit" function
+               (:typemodifiers ("extern")
+                :arguments 
+                  ( ("__status" variable (:type "int") (reparse-symbol arg-sub-list) [1750 1763]))                  
+                :type "void")
+                nil [1733 1789])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1800 1805]))                  
+                :type "int")
+                nil [1791 3505]))          
+      :file "code_eefc.c"
+      :pointmax 3506
+      :fsize 3505
+      :lastmodtime '(23491 47903 702401 314000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("REG_WDT_MR" . ((symbol "0x400E1454U" 650 . 661)))
+          ("REG_PIOC_ODSR" . ((symbol "0x400E1238U" 1379 . 1390)))
+          ("BOARD_FREQ_STARTUP_US" . ((symbol "15625UL" 244 . 251)))
+          ("REG_PIOC_PER" . ((symbol "0x400E1200U" 841 . 852)))
+          ("REG_PIOC_PDSR" . ((symbol "0x400E123CU" 1441 . 1452)))
+          ("REG_PIOC_ODR" . ((symbol "0x400E1214U" 1033 . 1044)))
+          ("PIOC_LED_YELLOW" . ((symbol "PIOC_PORTPIN_23" 1511 . 1526)))
+          ("BOARD_FREQ_MAINCK_XTAL" . ((symbol "12000000UL" 320 . 330)))
+          ("REG_PIOC_CODR" . ((symbol "0x400E1234U" 1323 . 1334)))
+          ("REG_PIOC_PSR" . ((symbol "0x400E1208U" 928 . 939)))
+          ("PIOC_PORTPIN_23" . ((semantic-list "(1<<23)" 1478 . 1485)))
+          ("REG_WDT_SR" . ((symbol "0x400E1458U" 712 . 723)))
+          ("REG_PIOC_OER" . ((symbol "0x400E1210U" 962 . 973)))
+          ("BOARD_FREQ_SLCK_XTAL" . ((symbol "32768UL" 281 . 288)))
+          ("REG_PIOC_SODR" . ((symbol "0x400E1230U" 1246 . 1257)))
+          ("REG_PMC_PCSR0" . ((symbol "0x400E0418U" 534 . 545)))
+          ("PCM_PIOA_ID" . ((number "11" 774 . 776)))
+          ("REG_PIOC_OSR" . ((symbol "0x400E1218U" 1106 . 1117)))
+          ("REG_WDT_CR" . ((symbol "0x400E1450U" 619 . 630)))
+          ("WDT_WDDIS" . ((symbol "0x00008000U" 681 . 692)))
+          ("PCM_PIOC_ID" . ((number "13" 797 . 799)))
+          ("REG_PMC_PCER0" . ((symbol "0x400E0410U" 500 . 511)))
+          ("REG_PIOC_PDR" . ((symbol "0x400E1204U" 884 . 895)))
+          ("PMC_PIOC_ENABLE" . 
+              ((number "1" 570 . 571) (punctuation "<" 571 . 572) (punctuation "<" 572 . 573) (number "13" 573 . 575)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("CXX" variable (:default-value ("/opt/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc")) nil [2 70])
+            ("OBJCPY" variable (:default-value ("/opt/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-objcopy")) nil [70 145])
+            ("all" function (:arguments ("code_led0.elf" "code_eefc.elf")) nil [146 179])
+            ("code_led0.elf" function (:arguments ("startup_sam4s.o" "code_led0.o")) nil [180 451])
+            ("code_eefc.elf" function (:arguments ("startup_sam4s.o" "code_eefc.o")) nil [452 723])
+            ("startup_sam4s.o" function (:arguments ("startup_sam4s.c")) nil [725 984])
+            ("system_sam4s.o" function (:arguments ("system_sam4s.c")) nil [985 1237])
+            ("code_led0.o" function (:arguments ("code_led0.c")) nil [1238 1470])
+            ("code_eefc.o" function (:arguments ("code_eefc.c")) nil [1472 1704])
+            ("bin_eefc" function nil nil [1705 1764])
+            ("bin" function nil nil [1765 1819])
+            ("flash" function nil nil [1820 1883])
+            ("clean" function nil nil [1884 1913]))          
+      :file "Makefile"
+      :pointmax 1913
+      :fsize 1912
+      :lastmodtime '(23491 46939 547624 589000)
+      :unmatched-syntax nil))
+  :file "!srv!share!Workspace!sam4s_ex0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

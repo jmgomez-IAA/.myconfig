@@ -1,0 +1,67 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("SRC_DIR" variable (:default-value ("src/")) nil [34 49])
+            ("TOOL_PATH" variable (:default-value ("/opt/gcc-arm-none-eabi-7-2018-q2-update/bin/")) nil [130 187])
+            ("FLASH_PATH" variable (:default-value ("/opt/edbg")) nil [187 210])
+            ("ARCH" variable (:default-value ("cortex-m4")) nil [249 266])
+            ("CROSS_COMPILE" variable (:default-value ("arm-none-eabi-")) nil [278 309])
+            ("CXX" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}g++")) nil [309 348])
+            ("LD" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}g++")) nil [348 386])
+            ("OBJDUMP" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}objdump")) nil [386 434])
+            ("SIZE" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}size")) nil [434 475])
+            ("OBJCOPY" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}objcopy")) nil [475 522])
+            ("FLASH" variable (:default-value ("${FLASH_PATH}/edbg")) nil [522 549])
+            ("LINK_TARGET" variable (:default-value ("bin/yellow_led.elf")) nil [582 615])
+            ("HEX" variable (:default-value ("bin/yellow_led.elf.hex")) nil [615 644])
+            ("BIN" variable (:default-value ("bin/yellow_led.elf.bin")) nil [644 673])
+            ("INCLUDES" variable (:default-value ("src/")) nil [691 707])
+            ("LIBS" variable (:default-value ("src/")) nil [707 719])
+            ("CPPFLAGS" variable (:default-value ("-mcpu=${ARCH}" "-g" "-O2" "-Wall" "-Wextra" "-pedantic" "-fsigned-char" "-fno-exceptions")) nil [719 805])
+            ("CXXFLAGS" variable (:default-value ("-std=c++11")) nil [805 827])
+            ("CINCLUDES" variable (:default-value ("-Isrc" "-Isrc/mcal/sam4s" "-Isrc/sys/start/sam4s" "-Isrc/util/utility")) nil [827 903])
+            ("LDFLAGS" variable (:default-value ("-mthumb" "-Wl,-Map=\"yellow_led.map\"" "-Wl,--start-group" "-lm" "-Wl,--end-group" "-L\"./src/sys/start/sam4s\"" "-Wl,--gc-sections" "-Tatsam4sd32c.ld")) nil [903 1050])
+            ("SOURCES" variable (:default-value ("src/sys/start/sam4s/crt0.cpp" "src/sys/start/sam4s/crt0_init_ram.cpp" "src/sys/start/sam4s/crt1.cpp" "src/sys/start/sam4s/int_vect.cpp" "src/mcal/mcal.cpp" "src/mcal/sam4s/mcal_cpu.cpp" "src/mcal/sam4s/mcal_irq.cpp" "src/mcal/sam4s/mcal_port.cpp" "src/mcal/sam4s/mcal_uart.cpp" "src/mcal/sam4s/mcal_i2c.cpp" "src/mcal/sam4s/mcal_gpt.cpp" "src/mcal/sam4s/mcal_wdt.cpp" "src/mcal/sam4s/mcal_led.cpp" "src/sys/start/yellow_led_test.cpp")) nil [1127 1545])
+            ("OBJECTS" variable (:default-value ("bin/crt0.o" "bin/crt0_init_ram.o" "bin/crt1.o" "bin/int_vect.o" "bin/mcal.o" "bin/mcal_cpu.o" "bin/mcal_irq.o" "bin/mcal_port.o" "bin/mcal_uart.o" "bin/mcal_i2c.o" "bin/mcal_gpt.o" "bin/mcal_wdt.o" "bin/mcal_led.o")) nil [1545 1745])
+            (".PHONY" variable (:default-value ("all")) nil [1746 1759])
+            ("all" function (:arguments ("bin/yellow_led.elf" "bin/pio_periph.elf" "bin/i2c_periph.elf")) nil [1760 1843])
+            ("bin/yellow_led.elf" function (:arguments ("$(OBJECTS)" "bin/yellow_led_test.o")) nil [1844 1996])
+            ("bin/pio_periph.elf" function (:arguments ("$(OBJECTS)" "bin/pio_periph.o")) nil [1997 2157])
+            ("bin/i2c_periph.elf" function (:arguments ("$(OBJECTS)" "bin/i2c_periph.o")) nil [2158 2318])
+            ("bin/crt0.o" function (:arguments ("src/sys/start/sam4s/crt0.cpp")) nil [2321 2483])
+            ("bin/crt0_init_ram.o" function (:arguments ("src/sys/start/sam4s/crt0_init_ram.cpp")) nil [2484 2691])
+            ("bin/crt1.o" function (:arguments ("src/sys/start/sam4s/crt1.cpp")) nil [2692 2854])
+            ("bin/int_vect.o" function (:arguments ("src/sys/start/sam4s/int_vect.cpp")) nil [2855 3037])
+            ("bin/mcal.o" function (:arguments ("src/mcal/mcal.cpp")) nil [3038 3178])
+            ("bin/mcal_cpu.o" function (:arguments ("src/mcal/sam4s/mcal_cpu.cpp")) nil [3179 3314])
+            ("bin/mcal_gpt.o" function (:arguments ("src/mcal/sam4s/mcal_gpt.cpp")) nil [3315 3450])
+            ("bin/mcal_port.o" function (:arguments ("src/mcal/sam4s/mcal_port.cpp")) nil [3451 3589])
+            ("bin/mcal_irq.o" function (:arguments ("src/mcal/sam4s/mcal_irq.cpp")) nil [3590 3725])
+            ("bin/mcal_uart.o" function (:arguments ("src/mcal/sam4s/mcal_uart.cpp")) nil [3726 3864])
+            ("bin/mcal_i2c.o" function (:arguments ("src/mcal/sam4s/mcal_i2c.cpp")) nil [3865 4000])
+            ("bin/mcal_wdt.o" function (:arguments ("src/mcal/sam4s/mcal_wdt.cpp")) nil [4001 4136])
+            ("bin/mcal_led.o" function (:arguments ("src/mcal/sam4s/mcal_led.cpp")) nil [4137 4272])
+            ("bin/yellow_led_test.o" function (:arguments ("src/sys/app/yellow_led_test.cpp")) nil [4273 4420])
+            ("bin/pio_periph.o" function (:arguments ("src/sys/app/pio_periph_test.cpp")) nil [4421 4570])
+            ("bin/i2c_periph.o" function (:arguments ("src/sys/app/i2c_periph_test.cpp")) nil [4571 4720])
+            ("$(HEX)" function (:arguments ("$(LINK_TARGET)")) nil [4722 4776])
+            ("binary" function (:arguments ("$(LINK_TARGET)")) nil [4777 4833])
+            ("flash" function nil nil [4885 4946])
+            ("bin/pio_periph.elf.bin" function (:arguments ("bin/pio_periph.elf")) nil [4947 5111])
+            ("flash_pio_periph" function (:arguments ("bin/pio_periph.elf.bin")) nil [5112 5214])
+            ("bin/i2c_periph.elf.bin" function (:arguments ("bin/i2c_periph.elf")) nil [5215 5378])
+            ("flash_i2c_periph" function (:arguments ("bin/i2c_periph.elf.bin")) nil [5380 5481])
+            ("clean" function nil nil [5484 5524]))          
+      :file "Makefile"
+      :pointmax 5971
+      :fsize 5970
+      :lastmodtime '(23468 59394 848296 640000)
+      :unmatched-syntax nil))
+  :file "!srv!share!Workspace!base-iot!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

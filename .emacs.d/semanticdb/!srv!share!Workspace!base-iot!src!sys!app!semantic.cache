@@ -1,0 +1,302 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [745 767])
+            ("util/utility/util_time.h" include (:system-flag t) nil [768 803])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [818 864]))                  
+                :type "namespace")
+                nil [805 866])
+            ("main" function (:type "int") nil [868 2825]))          
+      :file "yellow_led_test.cpp"
+      :pointmax 2826
+      :fsize 2827
+      :lastmodtime '(23466 15740 81472 11000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [186 208])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [246 267])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [246 267])
+            ("BOARD_FREQ_SLCK_XTAL" variable (:constant-flag t) nil [284 304])
+            ("BOARD_FREQ_MAINCK_XTAL" variable (:constant-flag t) nil [321 343])
+            ("isr_handled" variable
+               (:default-value "false"
+                :type "bool")
+                nil [503 528])
+            ("counter" variable
+               (:default-value "0"
+                :type ("std::uint32_t" type (:type "class") nil nil))
+                nil [529 555])
+            ("system_tick_100ms_reload" variable
+               (:default-value "0x000F8FFFUL"
+                :type ("std::uint32_t" type (:type "class") nil nil))
+                nil [566 620])
+            ("__sys_tick_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [633 692])
+            ("__sys_tick_handler" function (:type "void") nil [693 853])
+            ("main" function (:type "int") nil [856 2539]))          
+      :file "software_interrupt_test.cpp"
+      :pointmax 2540
+      :fsize 2541
+      :lastmodtime '(23448 55995 335427 103000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOARD_FREQ_STARTUP_US" . ((symbol "15625UL" 268 . 275)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [200 222])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("util/utility/util_time.h" include (:system-flag t) nil [223 258])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("util/utility/util_time.h" include (:system-flag t) nil [223 258])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("BOARD_FREQ_SLCK_XTAL" variable (:constant-flag t) nil [334 354])
+            ("BOARD_FREQ_MAINCK_XTAL" variable (:constant-flag t) nil [371 393])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [567 613])
+                    ("app_timer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("timer_type::seconds" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [641 664]))                          
+                        :type ("timer_type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [620 666]))                  
+                :type "namespace")
+                nil [554 668])
+            ("main" function (:type "int") nil [671 1563]))          
+      :file "sys_tick_chrono_test.cpp"
+      :pointmax 1564
+      :fsize 1565
+      :lastmodtime '(23450 22896 10754 206000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOARD_FREQ_STARTUP_US" . ((symbol "15625UL" 318 . 325)))
+          ("BOARD_FREQ_MAINCK_XTAL" . ((symbol "12000000UL" 358 . 368)))
+          ("BOARD_FREQ_SLCK_XTAL" . ((symbol "32768UL" 319 . 326)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [200 222])
+            ("util/utility/util_time.h" include (:system-flag t) nil [223 258])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("BOARD_FREQ_SLCK_XTAL" variable (:constant-flag t) nil [334 354])
+            ("BOARD_FREQ_MAINCK_XTAL" variable (:constant-flag t) nil [371 393])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [567 613]))                  
+                :type "namespace")
+                nil [554 615])
+            ("main" function (:type "int") nil [618 1393]))          
+      :file "blocking_delay_test.cpp"
+      :pointmax 1394
+      :fsize 1395
+      :lastmodtime '(23450 27170 30933 185000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOARD_FREQ_STARTUP_US" . ((symbol "15625UL" 318 . 325)))
+          ("BOARD_FREQ_MAINCK_XTAL" . ((symbol "12000000UL" 394 . 404)))
+          ("BOARD_FREQ_SLCK_XTAL" . ((symbol "32768UL" 355 . 362)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [200 222])
+            ("util/utility/util_time.h" include (:system-flag t) nil [223 258])
+            ("BOARD_FREQ_STARTUP_US" variable (:constant-flag t) nil [296 317])
+            ("BOARD_FREQ_SLCK_XTAL" variable (:constant-flag t) nil [334 354])
+            ("BOARD_FREQ_MAINCK_XTAL" variable (:constant-flag t) nil [371 393])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [567 613])
+                    ("app_timer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type ("timer_type::seconds" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [637 660]))                          
+                        :type ("timer_type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [616 662]))                  
+                :type "namespace")
+                nil [554 664])
+            ("main" function (:type "int") nil [667 1518]))          
+      :file "sys_interval_test.cpp"
+      :pointmax 1519
+      :fsize 1520
+      :lastmodtime '(23450 28354 191184 705000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOARD_FREQ_STARTUP_US" . ((symbol "15625UL" 318 . 325)))
+          ("BOARD_FREQ_MAINCK_XTAL" . ((symbol "12000000UL" 394 . 404)))
+          ("BOARD_FREQ_SLCK_XTAL" . ((symbol "32768UL" 355 . 362)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [818 840])
+            ("util/utility/util_time.h" include (:system-flag t) nil [841 876])
+            ("array" include (:system-flag t) nil [878 894])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [909 955]))                  
+                :type "namespace")
+                nil [896 957])
+            ("main" function (:type "int") nil [959 1846]))          
+      :file "uart_periph_test.cpp"
+      :pointmax 1847
+      :fsize 1848
+      :lastmodtime '(23466 2983 703912 567000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [801 823])
+            ("util/utility/util_time.h" include (:system-flag t) nil [824 859])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [874 920]))                  
+                :type "namespace")
+                nil [861 922])
+            ("counter" variable
+               (:default-value "0"
+                :type ("std::uint32_t" type (:type "class") nil nil))
+                nil [924 950])
+            ("__vector_pio_a_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [964 1026])
+            ("__vector_pio_a_handler" function (:type "void") nil [1027 1583])
+            ("main" function (:type "int") nil [1586 2443]))          
+      :file "pio_periph_test.cpp"
+      :pointmax 2444
+      :fsize 2445
+      :lastmodtime '(23468 40144 822582 968000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [418 440])
+            ("util/utility/util_time.h" include (:system-flag t) nil [441 476])
+            ("array" include (:system-flag t) nil [478 494])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [509 555]))                  
+                :type "namespace")
+                nil [496 557])
+            ("counter" variable
+               (:default-value "0"
+                :type ("std::uint32_t" type (:type "class") nil nil))
+                nil [560 586])
+            ("__vector_pio_a_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [600 662])
+            ("__vector_pio_a_handler" function (:type "void") nil [663 1219])
+            ("main" function (:type "int") nil [1223 7476]))          
+      :file "i2c_periph_test.cpp"
+      :pointmax 7477
+      :fsize 7478
+      :lastmodtime '(23475 41913 802476 336000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [291 313])
+            ("util/utility/util_time.h" include (:system-flag t) nil [314 349])
+            ("array" include (:system-flag t) nil [351 367])
+            ("unnamed" type
+               (:members 
+                  ( ("timer_type" type
+                       (:typedef ("util::timer" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [382 428]))                  
+                :type "namespace")
+                nil [369 430])
+            ("counter" variable
+               (:default-value "0"
+                :type ("std::uint32_t" type (:type "class") nil nil))
+                nil [433 459])
+            ("__vector_pio_a_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [473 535])
+            ("__vector_pio_a_handler" function (:type "void") nil [536 1092])
+            ("main" function (:type "int") nil [1096 6866]))          
+      :file "adc_periph_test.cpp"
+      :pointmax 6867
+      :fsize 6868
+      :lastmodtime '(23475 46609 327038 498000)
+      :unmatched-syntax nil))
+  :file "!srv!share!Workspace!base-iot!src!sys!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

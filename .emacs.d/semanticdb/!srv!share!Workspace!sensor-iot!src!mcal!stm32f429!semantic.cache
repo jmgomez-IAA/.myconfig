@@ -1,0 +1,133 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags nil
+      :file "mcal_cpu.cpp"
+      :pointmax 67
+      :fsize 2946
+      :lastmodtime '(23363 44061 808842 85000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "mcal_cpu.h"
+      :fsize 758
+      :lastmodtime '(23363 44061 808842 85000))
+    (semanticdb-table "semanticdb-table"
+      :file "mcal_osc.h"
+      :fsize 535
+      :lastmodtime '(23363 44061 808842 85000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("MCAL_PORT_2014_01_10_H_" variable (:constant-flag t) nil [335 358])
+            ("mcal_reg_access.h" include (:system-flag t) nil [360 390])
+            ("mcal" type
+               (:members 
+                  ( ("port" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [444 469])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [486 505]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [476 506])
+                            ("port_pin" type
+                               (:template 
+                                  ( ("addr_type" type (:type "class") nil nil)
+                                    ("reg_type" type (:type "class") nil nil)
+                                    ("addr_type" type
+                                       (:typevar "port"
+                                        :constant-flag t)
+                                        nil nil)
+                                    ("reg_type" type
+                                       (:typevar "bpos"
+                                        :constant-flag t)
+                                        nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [685 692])
+                                    ("set_direction_output" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [701 1866])
+                                    ("set_direction_input" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1876 2212])
+                                    ("set_pin_high" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [2222 2489])
+                                    ("set_pin_low" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [2499 2764])
+                                    ("read_input_value" function
+                                       (:typemodifiers ("static")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [2774 3321])
+                                    ("toggle_pin" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3331 3591])
+                                    ("private" label nil (reparse-symbol classsubparts) [3599 3607])
+                                    ("port_mode_register" variable
+                                       (:default-value "addr_type(port + 0x00UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3633 3697])
+                                    ("output_type_register" variable
+                                       (:default-value "addr_type(port + 0x04UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3723 3787])
+                                    ("output_speed_register" variable
+                                       (:default-value "addr_type(port + 0x08UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3813 3877])
+                                    ("pull_up_pull_down_register" variable
+                                       (:default-value "addr_type(port + 0x0CUL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3903 3967])
+                                    ("input_data_register" variable
+                                       (:default-value "addr_type(port + 0x10UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3993 4057])
+                                    ("output_data_register" variable
+                                       (:default-value "addr_type(port + 0x14UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4083 4147]))                                  )
+                                (reparse-symbol namespacesubparts) [514 4156]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [417 4162]))                  
+                :type "namespace")
+                nil [394 4166]))          
+      :file "mcal_port.h"
+      :pointmax 4202
+      :fsize 4319
+      :lastmodtime '(23363 44061 808842 85000)
+      :unmatched-syntax '((symbol 4073 . 4082) (STATIC 4066 . 4072) (symbol 3983 . 3992) (STATIC 3976 . 3982) (symbol 3893 . 3902) (STATIC 3886 . 3892) (symbol 3803 . 3812) (STATIC 3796 . 3802) (symbol 3713 . 3722) (STATIC 3706 . 3712) (symbol 3623 . 3632) (STATIC 3616 . 3622))
+      :lexical-table 
+        '(("MCAL_PORT_2014_01_10_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "mcal_reg_access.h"
+      :fsize 549
+      :lastmodtime '(23363 44061 808842 85000))
+    (semanticdb-table "semanticdb-table"
+      :file "mcal_wdg.h"
+      :fsize 854
+      :lastmodtime '(23363 44061 808842 85000)))
+  :file "!srv!share!Workspace!sensor-iot!src!mcal!stm32f429!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

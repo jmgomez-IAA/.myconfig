@@ -1,0 +1,63 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("PLATFORM" variable (:default-value ("atsam4s-xpro")) nil [98 120])
+            ("MCAL" variable (:default-value ("atsam4sd32c")) nil [120 137])
+            ("SRC_DIR" variable (:default-value ("src/")) nil [138 153])
+            ("BUILD_DIR" variable (:default-value ("build/")) nil [153 172])
+            ("BIN_DIR" variable (:default-value ("bin/")) nil [172 187])
+            ("TOOL_PATH" variable (:default-value ("/opt/gcc-arm-none-eabi-7-2018-q2-update/bin/")) nil [270 327])
+            ("FLASH_PATH" variable (:default-value ("/opt/edbg")) nil [327 350])
+            ("MCAL_DIR" variable (:default-value ("src/mcal/${MCAL}")) nil [418 446])
+            ("PLATFORM_DIR" variable (:default-value ("src/platform/${PLATFORM}")) nil [446 486])
+            ("ARCH" variable (:default-value ("cortex-m4")) nil [486 503])
+            ("CROSS_COMPILE" variable (:default-value ("arm-none-eabi-")) nil [523 554])
+            ("CXX" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}g++")) nil [554 593])
+            ("LD" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}g++")) nil [593 631])
+            ("OBJDUMP" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}objdump")) nil [631 679])
+            ("SIZE" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}size")) nil [679 720])
+            ("OBJCOPY" variable (:default-value ("${TOOL_PATH}/${CROSS_COMPILE}objcopy")) nil [720 767])
+            ("FLASH" variable (:default-value ("${FLASH_PATH}/edbg")) nil [767 794])
+            ("INCLUDES" variable (:default-value ("src/")) nil [812 828])
+            ("LIBS" variable (:default-value ("src/")) nil [828 840])
+            ("CPPFLAGS" variable (:default-value ("-mcpu=${ARCH}" "-g" "-O2" "-Wall" "-Wextra" "-pedantic" "-fsigned-char" "-fno-exceptions")) nil [840 926])
+            ("CXXFLAGS" variable (:default-value ("-std=c++11")) nil [926 948])
+            ("CINCLUDES" variable (:default-value ("-Isrc" "-Isrc/mcal/${MCAL}" "-Isrc/hal/${PLATFORM}" "-Isrc/util/STL" "-Isrc/sys/start/${MCAL}")) nil [948 1047])
+            ("LDFLAGS" variable (:default-value ("-mthumb" "-Wl,--start-group" "-lm" "-Wl,--end-group" "-L\"./src/sys/start/${MCAL}\"" "-Wl,--gc-sections" "-T${MCAL}.ld")) nil [1047 1167])
+            ("SOURCES" variable (:default-value ("src/sys/start/${MCAL}/crt0.cpp" "src/sys/start/${MCAL}/crt0_init_ram.cpp" "src/sys/start/${MCAL}/crt1.cpp" "src/sys/start/${MCAL}/int_vect.cpp" "src/mcal/mcal.cpp" "src/mcal/${MCAL}/mcal_cpu.cpp" "src/mcal/${MCAL}/mcal_irq.cpp" "src/mcal/${MCAL}/mcal_wdt.cpp" "src/mcal/${MCAL}/mcal_port.cpp" "src/mcal/${MCAL}/mcal_gpt.cpp" "src/hal/hal.cpp" "src/hal/${PLATFORM}/hal_led.cpp" "src/hal/${PLATFORM}/hal_sw.cpp")) nil [1168 1564])
+            ("OBJECTS" variable (:default-value ("$(addprefix $(BUILD_DIR),$(patsubst %.cpp,%.o,$(SOURCES)))")) nil [1565 1634])
+            ("PROGRAM" variable (:default-value ("/src/app/pio_periph_test.cpp")) nil [1635 1674])
+            (".PHONY" variable (:default-value ("all")) nil [1675 1688])
+            ("all" function (:arguments ("pio_periph")) nil [1689 1796])
+            ("pio_periph" function (:arguments ("$(BIN_DIR)pio_periph_test.elf")) nil [1797 1948])
+            ("$(BUILD_DIR)" function (:arguments ("src/sys/start/${MCAL}/crt0.cpp")) nil [1969 2116])
+            ("$(BUILD_DIR)" function (:arguments ("src/sys/start/${MCAL}/crt0_init_ram.cpp")) nil [2117 2282])
+            ("$(BUILD_DIR)" function (:arguments ("src/sys/start/${MCAL}/crt1.cpp")) nil [2283 2430])
+            ("$(BUILD_DIR)" function (:arguments ("src/sys/start/${MCAL}/int_vect.cpp")) nil [2431 2586])
+            ("$(BUILD_DIR)" function (:arguments ("src/mcal/mcal.cpp")) nil [2587 2707])
+            ("$(BUILD_DIR)" function (:arguments ("src/mcal/${MCAL}/mcal_cpu.cpp")) nil [2708 2852])
+            ("$(BUILD_DIR)" function (:arguments ("src/mcal/${MCAL}/mcal_irq.cpp")) nil [2853 2997])
+            ("$(BUILD_DIR)" function (:arguments ("src/mcal/${MCAL}/mcal_wdt.cpp")) nil [2998 3142])
+            ("$(BUILD_DIR)" function (:arguments ("src/mcal/${MCAL}/mcal_gpt.cpp")) nil [3143 3287])
+            ("$(BUILD_DIR)" function (:arguments ("src/mcal/${MCAL}/mcal_port.cpp")) nil [3288 3434])
+            ("$(BUILD_DIR)" function (:arguments ("src/hal/hal.cpp")) nil [3435 3551])
+            ("$(BUILD_DIR)" function (:arguments ("src/hal/${PLATFORM}/hal_led.cpp")) nil [3552 3700])
+            ("$(BUILD_DIR)" function (:arguments ("src/hal/${PLATFORM}/hal_sw.cpp")) nil [3701 3847])
+            ("$(BUILD_DIR)" function (:arguments ("src/app/pio_periph_test.cpp")) nil [3868 4009])
+            ("$(BIN_DIR)" function (:arguments ("$(OBJECTS)" "$(BUILD_DIR)src/app/pio_periph_test.o")) nil [4029 4249])
+            ("flash" function nil nil [4301 4368])
+            ("$(BUILD_DIR)" function (:arguments ("src/%.c")) nil [4369 4467])
+            ("clean" function nil nil [4469 4494]))          
+      :file "Makefile"
+      :pointmax 4494
+      :fsize 4493
+      :lastmodtime '(23495 42015 731121 98000)
+      :unmatched-syntax nil))
+  :file "!srv!share!Workspace!Embedded_Software_Collection!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

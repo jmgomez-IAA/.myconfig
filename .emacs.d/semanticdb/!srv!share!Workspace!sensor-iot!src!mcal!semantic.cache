@@ -1,0 +1,117 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_EMBEDDED_2018_" variable (:constant-flag t) nil [270 290])
+            ("mcal_cpu.h" include (:system-flag t) nil [292 313])
+            ("mcal_wdt.h" include (:system-flag t) nil [314 335])
+            ("mcal_gpt.h" include (:system-flag t) nil [336 357])
+            ("mcal_irq.h" include (:system-flag t) nil [358 379])
+            ("mcal_port.h" include (:system-flag t) nil [404 426])
+            ("mcal" type
+               (:members 
+                  ( ("init" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [496 508]))                  
+                :type "namespace")
+                nil [477 510]))          
+      :file "mcal.h"
+      :pointmax 542
+      :fsize 541
+      :lastmodtime '(23491 44948 381744 994000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [235 257])
+            ("init" function
+               (:parent "mcal"
+                :type "void")
+                nil [259 542]))          
+      :file "mcal.cpp"
+      :pointmax 543
+      :fsize 542
+      :lastmodtime '(23491 45037 911259 970000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_REG_ACCESS_TEMPLATE_2010_12_01_H_" variable (:constant-flag t) nil [351 390])
+            ("mcal" type
+               (:members 
+                  ( ("reg" type
+                       (:members 
+                          ( ("access" type
+                               (:members 
+                                  ( ("reg_set" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [703 800])
+                                    ("reg_and" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [809 906])
+                                    ("reg_or" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [915 1012])
+                                    ("reg_not" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1021 1140])
+                                    ("reg_get" function
+                                       (:typemodifiers ("static")
+                                        :type ("register_value_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1149 1255])
+                                    ("reg_msk" function
+                                       (:template 
+                                          ( ("register_value_type" type
+                                               (:typevar "mask_value"
+                                                :constant-flag t)
+                                                nil nil))                                          
+                                        :type "void"
+                                        :typemodifiers ("static"))
+                                        (reparse-symbol classsubparts) [1265 1565])
+                                    ("bit_set" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1575 1713])
+                                    ("bit_clr" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1722 1895])
+                                    ("bit_not" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1904 2042])
+                                    ("bit_get" function
+                                       (:typemodifiers ("static")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [2051 2232]))                                  
+                                :type "struct")
+                                (reparse-symbol namespacesubparts) [673 2241]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [417 2247]))                  
+                :type "namespace")
+                nil [394 2251]))          
+      :file "mcal_reg_access_template.h"
+      :pointmax 2303
+      :fsize 2343
+      :lastmodtime '(23478 24385 313273 472000)
+      :unmatched-syntax '((punctuation 665 . 666) (semantic-list 662 . 665) (punctuation 661 . 662) (symbol 642 . 661) (punctuation 641 . 642) (symbol 630 . 641) (number 663 . 664) (punctuation 628 . 629) (symbol 622 . 627) (symbol 602 . 621) (CONST 596 . 601) (punctuation 579 . 580) (symbol 572 . 579) (symbol 550 . 571) (CONST 544 . 549) (punctuation 527 . 528) (symbol 508 . 527) (TYPENAME 499 . 507) (punctuation 482 . 483) (symbol 461 . 482) (TYPENAME 452 . 460) (punctuation 451 . 452) (TEMPLATE 443 . 451))
+      :lexical-table 
+        '(("_MCAL_REG_ACCESS_TEMPLATE_2010_12_01_H_")
+          )
+))
+  :file "!srv!share!Workspace!sensor-iot!src!mcal!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

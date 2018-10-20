@@ -1,0 +1,116 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_BOARD_PORT_ATSAM4SXPRO_ESC_H_" variable (:constant-flag t) nil [169 199])
+            ("mcal/mcal.h" include (:system-flag t) nil [201 223])
+            ("board_reg.h" include (:system-flag t) nil [224 246])
+            ("board" type
+               (:members 
+                  ( ("port" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [299 324])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [341 360]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [331 361])
+                            ("user_led_pin" variable (:type "int") (reparse-symbol namespacesubparts) [577 590])
+                            ("user_button_pin" variable (:type "int") (reparse-symbol namespacesubparts) [809 825]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [272 831]))                  
+                :type "namespace")
+                nil [248 835]))          
+      :file "board_port.h"
+      :pointmax 877
+      :fsize 908
+      :lastmodtime '(23495 38619 576186 315000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BOARD_PORT_ATSAM4SXPRO_ESC_H_")
+          )
+)
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("board_port.h" include (:system-flag t) nil [2 25])
+            ("board::port::user_led_pin" variable (:type "int") nil [276 302])
+            ("board::port::user_button_pin" variable (:type "int") nil [533 562])
+            ("init" function
+               (:parent "board::port"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [588 607]))                  
+                :type "void")
+                nil [565 869])
+            ("__vector_pio_a_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [609 609])
+            ("__vector_pio_a_handler" function (:type "void") nil [609 609]))          
+      :file "board_port.cpp"
+      :pointmax 870
+      :fsize 901
+      :lastmodtime '(23495 38903 641314 69000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("BOARD_REG_ESC_H_" variable (:constant-flag t) nil [203 219])
+            ("BOARD_REG_ESC_H_" variable (:constant-flag t) nil [203 219])
+            ("cstdint" include (:system-flag t) nil [221 241])
+            ("board" type
+               (:members 
+                  ( ("reg" type
+                       (:members 
+                          ( ("bval0" variable
+                               (:default-value "1U"
+                                :type ("std::uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [336 361])
+                            ("1U" variable (:type "int") (reparse-symbol namespacesubparts) [406 409])
+                            ("2U" variable (:type "int") (reparse-symbol namespacesubparts) [454 457])
+                            ("3U" variable (:type "int") (reparse-symbol namespacesubparts) [502 505])
+                            ("4U" variable (:type "int") (reparse-symbol namespacesubparts) [550 553])
+                            ("5U" variable (:type "int") (reparse-symbol namespacesubparts) [598 601])
+                            ("6U" variable (:type "int") (reparse-symbol namespacesubparts) [646 649])
+                            ("7U" variable (:type "int") (reparse-symbol namespacesubparts) [694 697])
+                            ("user_led_id" variable
+                               (:default-value "UINT32_C(23)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [724 773])
+                            ("user_button_id" variable
+                               (:default-value "UINT32_C(2)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [790 838]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [269 844]))                  
+                :type "namespace")
+                nil [245 848]))          
+      :file "board_reg.h"
+      :pointmax 875
+      :fsize 874
+      :lastmodtime '(23495 38606 836255 333000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOARD_REG_ESC_H_")
+          )
+))
+  :file "!srv!share!Workspace!Embedded_Software_Collection!src!platform!atsam4s-xpro!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

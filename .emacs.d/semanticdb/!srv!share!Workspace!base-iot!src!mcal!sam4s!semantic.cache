@@ -1,0 +1,1582 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_CPU_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [340 370])
+            ("cstdint" include (:system-flag t) nil [372 390])
+            ("mcal_reg.h" include (:system-flag t) nil [391 412])
+            ("mcal" type
+               (:members 
+                  ( ("cpu" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [457 482])
+                            ("init" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [488 500])
+                            ("post_init" function
+                               (:typemodifiers ("inline")
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [506 532])
+                            ("nop" function
+                               (:typemodifiers ("inline")
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [537 579])
+                            ("read_program_memory" function
+                               (:typemodifiers ("inline")
+                                :arguments 
+                                  ( ("pointer_to_program_memory" variable
+                                       (:pointer 1
+                                        :typemodifiers ("volatile")
+                                        :type ("std::uint8_t" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [625 675]))                                  
+                                :type ("std::uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [585 728]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [434 733]))                  
+                :type "namespace")
+                nil [415 735]))          
+      :file "mcal_cpu.h"
+      :pointmax 778
+      :fsize 777
+      :lastmodtime '(23428 18228 732020 21000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_CPU_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_cpu.h" include (:system-flag t) nil [124 145])
+            ("mcal_reg_access.h" include (:system-flag t) nil [146 174])
+            ("init" function
+               (:parent "mcal::cpu"
+                :type "void")
+                nil [250 2173]))          
+      :file "mcal_cpu.cpp"
+      :pointmax 2174
+      :fsize 2173
+      :lastmodtime '(23462 38461 782997 883000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_ACCESS_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [345 378])
+            ("mcal_reg.h" include (:system-flag t) nil [380 403])
+            ("mcal/mcal_reg_access_template.h" include (:system-flag t) nil [404 448])
+            ("mcal/mcal_reg_dynamic_access_template.h" include (:system-flag t) nil [449 501]))          
+      :file "mcal_reg_access.h"
+      :pointmax 547
+      :fsize 546
+      :lastmodtime '(23459 37343 49212 815000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_ACCESS_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_PMC_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [435 465])
+            ("cstdint" include (:system-flag t) nil [467 485])
+            ("mcal" type
+               (:members 
+                  ( ("pmc" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [528 553])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [568 587]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [558 588])
+                            ("enable_pck" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [609 628]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [593 629])
+                            ("master_clock_controller" variable
+                               (:default-value "addr_type(port + 0x00UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [652 722]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [506 727]))                  
+                :type "namespace")
+                nil [487 729]))          
+      :file "mcal_pmc.h"
+      :pointmax 772
+      :fsize 771
+      :lastmodtime '(23446 47414 969330 142000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_PMC_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_REG_EMBEDDED_H_" variable (:constant-flag t) nil [230 251])
+            ("cstdint" include (:system-flag t) nil [253 273])
+            ("mcal" type
+               (:members 
+                  ( ("reg" type
+                       (:members 
+                          ( ("bval0" variable
+                               (:default-value "1U"
+                                :type ("std::uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [367 392])
+                            ("1U" variable (:type "int") (reparse-symbol namespacesubparts) [437 440])
+                            ("2U" variable (:type "int") (reparse-symbol namespacesubparts) [485 488])
+                            ("3U" variable (:type "int") (reparse-symbol namespacesubparts) [533 536])
+                            ("4U" variable (:type "int") (reparse-symbol namespacesubparts) [581 584])
+                            ("5U" variable (:type "int") (reparse-symbol namespacesubparts) [629 632])
+                            ("6U" variable (:type "int") (reparse-symbol namespacesubparts) [677 680])
+                            ("7U" variable (:type "int") (reparse-symbol namespacesubparts) [725 728])
+                            ("periph_base" variable
+                               (:default-value "UINT32_C(0x40000000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [790 843])
+                            ("scs_base" variable
+                               (:default-value "UINT32_C(0xE000E000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [890 943])
+                            ("apb1periph_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x00000000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [961 1032])
+                            ("ahb1periph_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x00020000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1049 1120])
+                            ("scb_base" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000D00)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1221 1292])
+                            ("scb_vtor" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000D08)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1309 1380])
+                            ("nvic_base" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000100)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1442 1513])
+                            ("nvic_iser0" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000100)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1530 1601])
+                            ("nvic_iser1" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000104)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1618 1689])
+                            ("nvic_icer0" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000180)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1706 1777])
+                            ("nvic_icer1" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000184)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1794 1865])
+                            ("nvic_ispr0" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000200)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1882 1953])
+                            ("nvic_ispr1" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000204)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1970 2041])
+                            ("nvic_icpr0" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000280)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2058 2129])
+                            ("nvic_icpr1" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000284)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2146 2217])
+                            ("nvic_iabr0" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000300)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2234 2305])
+                            ("nvic_iabr1" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000304)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2322 2393])
+                            ("nvic_ipr0" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000400)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2410 2481])
+                            ("nvic_ipr1" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000404)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2498 2569])
+                            ("nvic_stir" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000F00)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2587 2658])
+                            ("nvic2_base" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000F00)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2677 2748])
+                            ("syst_csr" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000010)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2784 2855])
+                            ("syst_rvr" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000014)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2872 2943])
+                            ("syst_cvr" variable
+                               (:default-value "scs_base        + UINT32_C(0x00000018)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [2960 3031])
+                            ("syst_calib" variable
+                               (:default-value "scs_base        + UINT32_C(0x0000001C)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3048 3119])
+                            ("pmc_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E0400)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3174 3245])
+                            ("pmc_pcer0" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E0410)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3306 3377])
+                            ("rcc_base" variable
+                               (:default-value "ahb1periph_base + UINT32_C(0x00003800)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3395 3466])
+                            ("pwr_base" variable
+                               (:default-value "apb1periph_base + UINT32_C(0x00007000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3483 3554])
+                            ("wdt_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1450)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3627 3698])
+                            ("wdt_mr" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1454)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3715 3786])
+                            ("pioa_periph_id" variable
+                               (:default-value "11"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3846 3881])
+                            ("pioa_base" variable
+                               (:default-value "periph_base        + UINT32_C(0xE0E00)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3898 3969])
+                            ("piob_periph_id" variable
+                               (:default-value "12"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [3986 4021])
+                            ("piob_base" variable
+                               (:default-value "periph_base        + UINT32_C(0xE1000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4038 4109])
+                            ("pioc_periph_id" variable
+                               (:default-value "13"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4126 4161])
+                            ("pioc_base" variable
+                               (:default-value "periph_base        + UINT32_C(0xE1200)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4178 4249])
+                            ("piob_per" variable
+                               (:default-value "piob_base       + UINT32_C(0x00)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4268 4333])
+                            ("piob_pdr" variable
+                               (:default-value "piob_base       + UINT32_C(0x04)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4350 4415])
+                            ("piob_psr" variable
+                               (:default-value "piob_base       + UINT32_C(0x08)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4432 4497])
+                            ("piob_abcdsr1" variable
+                               (:default-value "piob_base       + UINT32_C(0x70)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4514 4579])
+                            ("piob_abcdsr2" variable
+                               (:default-value "piob_base       + UINT32_C(0x74)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4596 4661])
+                            ("pioc_per" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1200)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4679 4750])
+                            ("pioc_oer" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1210)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4767 4838])
+                            ("pioc_codr" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1234)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4855 4926])
+                            ("pioc_sodr" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1230)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [4943 5014])
+                            ("pioc_odsr" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E1238)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5031 5102])
+                            ("pioc_pdsr" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E123C)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5119 5190])
+                            ("uart0_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E0600)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5244 5315])
+                            ("uart1_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x000E0800)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5332 5403])
+                            ("twi0_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x00018000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5457 5527])
+                            ("twi1_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x0001C000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5544 5614])
+                            ("adc_base" variable
+                               (:default-value "periph_base     + UINT32_C(0x00038000)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5667 5737])
+                            ("flash_r_base" variable
+                               (:default-value "ahb1periph_base + UINT32_C(0x00003C00)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5755 5826])
+                            ("gpio_base" variable
+                               (:default-value "0x0"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5910 5940])
+                            ("tim4_base" variable
+                               (:default-value "0x0"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [5983 6013])
+                            ("iwdg_ase" variable
+                               (:default-value "0x0"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6070 6099]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [300 6106]))                  
+                :type "namespace")
+                nil [277 6110]))          
+      :file "mcal_reg.h"
+      :pointmax 6143
+      :fsize 6142
+      :lastmodtime '(23475 50019 865228 695000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_REG_EMBEDDED_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_WDT_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [350 380])
+            ("mcal_reg.h" include (:system-flag t) nil [382 403])
+            ("mcal" type
+               (:members 
+                  ( ("wdt" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [446 471])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [486 505]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [476 506])
+                            ("enable" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [523 542]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [511 543])
+                            ("disable" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [549 564]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [424 569]))                  
+                :type "namespace")
+                nil [405 571]))          
+      :file "mcal_wdt.h"
+      :pointmax 613
+      :fsize 612
+      :lastmodtime '(23428 22206 473804 78000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_WDT_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_wdt.h" include (:system-flag t) nil [124 145])
+            ("mcal_reg_access.h" include (:system-flag t) nil [146 174])
+            ("init" function
+               (:parent "mcal::wdt"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [247 266]))                  
+                :type "void")
+                nil [226 268])
+            ("enable" function
+               (:parent "mcal::wdt"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [292 311]))                  
+                :type "void")
+                nil [269 313])
+            ("disable" function
+               (:parent "mcal::wdt"
+                :type "void")
+                nil [315 582]))          
+      :file "mcal_wdt.cpp"
+      :pointmax 583
+      :fsize 582
+      :lastmodtime '(23428 22196 733856 844000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_MCAL_IRQ_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [501 531])
+            ("mcal/mcal.h" include (:system-flag t) nil [533 555])
+            ("mcal" type
+               (:members 
+                  ( ("irq" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [599 624])
+                            ("IRQn_t" type
+                               (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [629 658])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [698 717]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [688 718])
+                            ("enable_all" function
+                               (:typemodifiers ("inline")
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [779 833])
+                            ("disable_all" function
+                               (:typemodifiers ("inline")
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [893 946])
+                            ("enableIRQ" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("IRQn" variable (:type ("IRQn_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1139 1151]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1124 1152])
+                            ("disableIRQ" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("IRQn" variable (:type ("IRQn_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1346 1358]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [1330 1359]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [576 1363]))                  
+                :type "namespace")
+                nil [557 1365]))          
+      :file "mcal_irq.h"
+      :pointmax 1407
+      :fsize 1406
+      :lastmodtime '(23467 49083 281057 185000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_IRQ_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_LED_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [307 337])
+            ("cstdint" include (:system-flag t) nil [339 357])
+            ("mcal_reg_access.h" include (:system-flag t) nil [380 408])
+            ("mcal_reg.h" include (:system-flag t) nil [409 430])
+            ("mcal" type
+               (:members 
+                  ( ("dev" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [473 498])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [514 527]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [504 528])
+                            ("pioc_portpin_23" variable
+                               (:default-value "(1<<23)"
+                                :type ("std::uint32_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [544 585])
+                            ("led" type
+                               (:members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [611 618])
+                                    ("port_type" type
+                                       (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [625 657])
+                                    ("bval_type" type
+                                       (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [664 696])
+                                    ("led" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("puerto" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [856 877])
+                                            ("valor" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [878 898]))                                          
+                                        :type "int")
+                                        (reparse-symbol classsubparts) [852 899])
+                                    ("switch_on" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [921 926]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [906 927])
+                                    ("switch_off" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [950 955]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [934 956])
+                                    ("toggle" function
+                                       (:prototype-flag t
+                                        :arguments 
+                                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [975 980]))                                          
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [963 981])
+                                    ("private" label nil (reparse-symbol classsubparts) [987 995])
+                                    ("port" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1002 1021])
+                                    ("bval" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1028 1047])
+                                    ("led_is_on" variable (:type "bool") (reparse-symbol classsubparts) [1054 1069]))                                  
+                                :type "class")
+                                (reparse-symbol namespacesubparts) [591 1076])
+                            ("led_yellow" variable
+                               (:typemodifiers ("extern")
+                                :type ("led" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [1082 1104]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [451 1109]))                  
+                :type "namespace")
+                nil [432 1112]))          
+      :file "mcal_led.h"
+      :pointmax 1154
+      :fsize 1153
+      :lastmodtime '(23433 33963 926172 488000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_LED_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_led.h" include (:system-flag t) nil [280 301])
+            ("led_yellow" function
+               (:prototype-flag t
+                :parent "mcal::dev"
+                :arguments 
+                  ( ("" variable (:type ("mcal::reg::pioc_base" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [340 361])
+                    ("" variable (:type ("pioc_portpin_23" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [362 378]))                  
+                :type ("mcal::dev::led" type (:type "class") nil nil))
+                nil [303 379])
+            ("led" function
+               (:parent "mcal::dev::led"
+                :arguments 
+                  ( ("puerto" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [401 422])
+                    ("valor" variable (:type ("std::uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [423 443]))                  
+                :type "int")
+                nil [381 837])
+            ("switch_on" function
+               (:parent "mcal::dev::led"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [871 876]))                  
+                :type "bool")
+                nil [840 994])
+            ("switch_off" function
+               (:parent "mcal::dev::led"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1028 1033]))                  
+                :type "bool")
+                nil [996 1152])
+            ("toggle" function
+               (:parent "mcal::dev::led"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1182 1187]))                  
+                :type "void")
+                nil [1154 1605]))          
+      :file "mcal_led.cpp"
+      :pointmax 1606
+      :fsize 1605
+      :lastmodtime '(23433 32890 1990 434000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_GPT_EMBEDDED_H_" variable (:constant-flag t) nil [544 565])
+            ("chrono" include (:system-flag t) nil [567 584])
+            ("cstdint" include (:system-flag t) nil [585 603])
+            ("util" type
+               (:members 
+                  ( ("timer" type
+                       (:template 
+                          ( ("unsigned_tick_type" type (:type "class") nil nil))                          
+                        :type "class"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [625 678]))                  
+                :type "namespace")
+                nil [606 680])
+            ("__sys_tick_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [694 753])
+            ("mcal" type
+               (:members 
+                  ( ("gpt" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [796 821])
+                            ("value_type" type
+                               (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [826 859])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [875 894]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [865 895])
+                            ("get_system_time" function
+                               (:prototype-flag t
+                                :type ("value_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [901 930])
+                            ("final" variable (:type ("secure" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [936 1219]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [774 1224]))                  
+                :type "namespace")
+                nil [755 1226]))          
+      :file "mcal_gpt.h"
+      :pointmax 1261
+      :fsize 1260
+      :lastmodtime '(23450 21701 500558 756000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_GPT_EMBEDDED_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_gpt.h" include (:system-flag t) nil [367 388])
+            ("mcal_reg_access.h" include (:system-flag t) nil [389 417])
+            ("unnamed" type
+               (:members 
+                  ( ("system_tick" variable
+                       (:typemodifiers ("volatile")
+                        :type ("mcal::gpt::value_type" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [433 476])
+                    ("gpt_is_initialized" function (:type "bool") (reparse-symbol namespacesubparts) [480 574]))                  
+                :type "namespace")
+                nil [419 576])
+            ("get_system_time" function
+               (:parent "mcal::gpt"
+                :type ("mcal::gpt::value_type" type (:type "class") nil nil))
+                nil [578 654])
+            ("init" function
+               (:parent "mcal::gpt"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [744 763]))                  
+                :type "void")
+                nil [723 1464])
+            ("__sys_tick_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [1477 1536])
+            ("__sys_tick_handler" function (:type "void") nil [1537 1775])
+            ("get_time_elapsed" function
+               (:parent "mcal::gpt::secure"
+                :type ("mcal::gpt::value_type" type (:type "class") nil nil))
+                nil [1833 3031]))          
+      :file "mcal_gpt.cpp"
+      :pointmax 3034
+      :fsize 3033
+      :lastmodtime '(23450 25530 633147 898000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_GPT_EMBEDDED_H_" variable (:constant-flag t) nil [296 317])
+            ("chrono" include (:system-flag t) nil [319 336])
+            ("cstdint" include (:system-flag t) nil [337 355])
+            ("util" type
+               (:members 
+                  ( ("timer" type
+                       (:template 
+                          ( ("unsigned_tick_type" type (:type "class") nil nil))                          
+                        :type "class"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [376 429]))                  
+                :type "namespace")
+                nil [357 431])
+            ("mcal" type
+               (:members 
+                  ( ("gpt" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [474 499])
+                            ("value_type" type
+                               (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [504 537])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [553 572]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [543 573])
+                            ("final" variable (:type ("secure" type
+                                 (:prototype t
+                                  :type "class")
+                                  nil nil)) (reparse-symbol namespacesubparts) [579 880]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [452 885]))                  
+                :type "namespace")
+                nil [433 887]))          
+      :file "mcal_gpt.h~"
+      :pointmax 922
+      :fsize 1212
+      :lastmodtime '(23434 30709 913337 522000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_GPT_EMBEDDED_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("MCAL_PORT_2018_01_10_H_" variable (:constant-flag t) nil [161 184])
+            ("mcal_reg_access.h" include (:system-flag t) nil [186 216])
+            ("mcal" type
+               (:members 
+                  ( ("port" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [270 295])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [312 331]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [302 332])
+                            ("port_pin" type
+                               (:template 
+                                  ( ("addr_type" type (:type "class") nil nil)
+                                    ("reg_type" type (:type "class") nil nil)
+                                    ("addr_type" type
+                                       (:typevar "port"
+                                        :constant-flag t)
+                                        nil nil)
+                                    ("reg_type" type
+                                       (:typevar "bpos"
+                                        :constant-flag t)
+                                        nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [511 518])
+                                    ("periphA_manage_pin" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [528 1733])
+                                    ("set_direction_output" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [1743 3369])
+                                    ("set_direction_input" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [3379 5205])
+                                    ("enable_pull_up" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [5215 5486])
+                                    ("disable_pull_up" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [5496 5769])
+                                    ("enable_interrupt_edge" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [5779 6557])
+                                    ("set_pin_high" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [6568 6830])
+                                    ("set_pin_low" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [6840 7102])
+                                    ("read_input_value" function
+                                       (:typemodifiers ("static")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [7112 7582])
+                                    ("toggle_pin" function
+                                       (:typemodifiers ("static")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [7592 7849])
+                                    ("private" label nil (reparse-symbol classsubparts) [7857 7865])
+                                    ("port_enable_register" variable
+                                       (:default-value "addr_type(port + 0x00UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [7891 7957])
+                                    ("port_disable_register" variable
+                                       (:default-value "addr_type(port + 0x04UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [7983 8049])
+                                    ("port_status_register" variable
+                                       (:default-value "addr_type(port + 0x08UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8075 8141])
+                                    ("output_enable_register" variable
+                                       (:default-value "addr_type(port + 0x10UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8167 8233])
+                                    ("output_disable_register" variable
+                                       (:default-value "addr_type(port + 0x14UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8259 8325])
+                                    ("glicth_filter_disable" variable
+                                       (:default-value "addr_type(port + 0x24UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8351 8417])
+                                    ("set_output_data" variable
+                                       (:default-value "addr_type(port + 0x30UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8443 8509])
+                                    ("clear_output_data" variable
+                                       (:default-value "addr_type(port + 0x34UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8535 8601])
+                                    ("input_data_register" variable
+                                       (:default-value "addr_type(port + 0x3CUL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8627 8693])
+                                    ("interrupt_enable_register" variable
+                                       (:default-value "addr_type(port + 0x40UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8719 8785])
+                                    ("interrupt_disable_register" variable
+                                       (:default-value "addr_type(port + 0x44UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8811 8877])
+                                    ("pull_up_disable_register" variable
+                                       (:default-value "addr_type(port + 0x60UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8903 8969])
+                                    ("pull_up_enable_register" variable
+                                       (:default-value "addr_type(port + 0x64UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [8995 9061])
+                                    ("peripheral_select_register" variable
+                                       (:default-value "addr_type(port + 0x70UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [9087 9153])
+                                    ("output_write_disable" variable
+                                       (:default-value "addr_type(port + 0xA4UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [9179 9245]))                                  )
+                                (reparse-symbol namespacesubparts) [340 9255])
+                            ("aurt1_tx_pin" variable (:type "int") (reparse-symbol namespacesubparts) [9412 9425])
+                            ("twi0_clock_pin" variable (:type "int") (reparse-symbol namespacesubparts) [9581 9596])
+                            ("twi0_data_pin" variable (:type "int") (reparse-symbol namespacesubparts) [9752 9766])
+                            ("twi1_clock_pin" variable (:type "int") (reparse-symbol namespacesubparts) [9930 9945])
+                            ("twi1_data_pin" variable (:type "int") (reparse-symbol namespacesubparts) [10101 10115])
+                            ("sw0_button_pin" variable (:type "int") (reparse-symbol namespacesubparts) [10314 10329])
+                            ("yellow_led_pin" variable (:type "int") (reparse-symbol namespacesubparts) [10518 10533]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [243 10539]))                  
+                :type "namespace")
+                nil [220 10543]))          
+      :file "mcal_port.h"
+      :pointmax 10579
+      :fsize 10848
+      :lastmodtime '(23474 24283 597682 51000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MCAL_PORT_2018_01_10_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_pcm.h" include (:system-flag t) nil [124 145])
+            ("mcal_reg_access.h" include (:system-flag t) nil [146 174])
+            ("init" function
+               (:parent "mcal::pmc"
+                :type "void")
+                nil [250 535]))          
+      :file "mcal_pmc.cpp"
+      :pointmax 536
+      :fsize 535
+      :lastmodtime '(23446 48734 795513 364000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_irq.h" include (:system-flag t) nil [165 186])
+            ("init" function
+               (:parent "mcal::irq"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [209 228]))                  
+                :type "void")
+                nil [188 284])
+            ("enableIRQ" function
+               (:parent "mcal::irq"
+                :arguments 
+                  ( ("IRQn" variable (:type ("mcal::irq::IRQn_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [313 336]))                  
+                :type "void")
+                nil [287 714])
+            ("disableIRQ" function
+               (:parent "mcal::irq"
+                :arguments 
+                  ( ("IRQn" variable (:type ("mcal::irq::IRQn_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [743 767]))                  
+                :type "void")
+                nil [716 1169]))          
+      :file "mcal_irq.cpp"
+      :pointmax 1170
+      :fsize 1169
+      :lastmodtime '(23467 50976 954131 612000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_UART_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [354 385])
+            ("cstdint" include (:system-flag t) nil [388 406])
+            ("mcal_cpu.h" include (:system-flag t) nil [407 428])
+            ("mcal_reg_access.h" include (:system-flag t) nil [429 457])
+            ("algorithm" include (:system-flag t) nil [458 478])
+            ("__vector_uart1_rx_tx_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [494 562])
+            ("mcal" type
+               (:members 
+                  ( ("uart" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [606 631])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [647 666]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [637 667])
+                            ("uart_communication" type
+                               (:template 
+                                  ( ("port_type" type (:type "class") nil nil)
+                                    ("bval_type" type (:type "class") nil nil)
+                                    ("port_type" type (:typevar "port") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [914 921])
+                                    ("addr_type" type
+                                       (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [928 960])
+                                    ("reg_type" type
+                                       (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [967 998])
+                                    ("uart_communication" function
+                                       (:constructor-flag t
+                                        :type ("uart_communication" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1006 2061])
+                                    ("send" function
+                                       (:arguments 
+                                          ( ("byte_to_send" variable
+                                               (:constant-flag t
+                                                :type ("bval_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2079 2108]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [2069 2480])
+                                    ("send_n" function
+                                       (:template 
+                                          ( ("send_iterator_type" type (:type "class") nil nil))                                          
+                                        :type "bool"
+                                        :arguments 
+                                          ( ("first" variable (:type ("send_iterator_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2544 2569])
+                                            ("last" variable (:type ("send_iterator_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2588 2612]))                                          )
+                                        (reparse-symbol classsubparts) [2488 3147])
+                                    ("recv" function
+                                       (:arguments 
+                                          ( ("byte_to_recv" variable
+                                               (:reference 1
+                                                :type ("bval_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [3165 3189]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [3155 3374])
+                                    ("receive_ready" function (:type "bool") (reparse-symbol classsubparts) [3426 3691])
+                                    ("private" label nil (reparse-symbol classsubparts) [3695 3703])
+                                    ("send_is_active" variable
+                                       (:typemodifiers ("volatile")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [3710 3739])
+                                    ("uart_ctrl_register" variable
+                                       (:default-value "addr_type(port + 0x00UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3764 3828])
+                                    ("uart_mode_register" variable
+                                       (:default-value "addr_type(port + 0x04UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3852 3916])
+                                    ("uart_status_register" variable
+                                       (:default-value "addr_type(port + 0x14UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3940 4004])
+                                    ("baud_rate_gen_register" variable
+                                       (:default-value "addr_type(port + 0x20UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4028 4092])
+                                    ("interrupt_enable_register" variable
+                                       (:default-value "addr_type(port + 0x08UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4117 4181])
+                                    ("interrupt_disable_register" variable
+                                       (:default-value "addr_type(port + 0x0CUL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4205 4269])
+                                    ("interrupt_mask_register" variable
+                                       (:default-value "addr_type(port + 0x10UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4293 4357])
+                                    ("output_data_register" variable
+                                       (:default-value "addr_type(port + 0x1CUL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4382 4446])
+                                    ("input_data_register" variable
+                                       (:default-value "addr_type(port + 0x18UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4470 4534])
+                                    ("__vector_uart1_rx_tx_irq" function
+                                       (:prototype-flag t
+                                        :typemodifiers ("friend")
+                                        :type "void")
+                                        (reparse-symbol classsubparts) [4550 4589]))                                  )
+                                (reparse-symbol namespacesubparts) [750 4595])
+                            ("the_uart" variable
+                               (:typemodifiers ("extern")
+                                :type ("uart_communication" type
+                                     (:template-specifier 
+                                        ( ("std::uint32_t" type nil nil nil)
+                                          ("std::uint8_t" type nil nil nil)
+                                          ("mcal::reg::uart1_base" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [4601 4748]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [583 4750]))                  
+                :type "namespace")
+                nil [564 4753]))          
+      :file "mcal_uart.h"
+      :pointmax 4796
+      :fsize 4795
+      :lastmodtime '(23468 59250 615744 682000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_UART_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_uart.h" include (:system-flag t) nil [266 288])
+            ("mcal_cpu.h" include (:system-flag t) nil [289 310])
+            ("mcal_port.h" include (:system-flag t) nil [311 333])
+            ("mcal_reg_access.h" include (:system-flag t) nil [334 362])
+            ("init" function
+               (:parent "mcal::uart"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [387 407]))                  
+                :type "void")
+                nil [365 672])
+            ("mcal::uart::the_uart" variable (:type ("mcal::uart::uart_communication" type
+                 (:template-specifier 
+                    ( ("std::uint32_t" type nil nil nil)
+                      ("std::uint8_t" type nil nil nil)
+                      ("mcal::reg::uart1_base" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [675 841])
+            ("__vector_uart1_rx_tx_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [858 926])
+            ("__vector_uart1_rx_tx_irq" function (:type "void") nil [927 2121]))          
+      :file "mcal_uart.cpp"
+      :pointmax 2122
+      :fsize 2121
+      :lastmodtime '(23470 10896 631831 633000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_port.h" include (:system-flag t) nil [286 308])
+            ("mcal_reg_access.h" include (:system-flag t) nil [309 337])
+            ("mcal::port::yellow_led_pin" variable (:type "int") nil [524 551])
+            ("sw0_button_pin" variable (:type "int") nil [704 719])
+            ("mcal::port::aurt1_tx_pin" variable (:type "int") nil [902 927])
+            ("mcal::port::twi0_clock_pin" variable (:type "int") nil [1202 1229])
+            ("mcal::port::twi0_data_pin" variable (:type "int") nil [1381 1407])
+            ("mcal::port::twi1_clock_pin" variable (:type "int") nil [1685 1712])
+            ("mcal::port::twi1_data_pin" variable (:type "int") nil [1864 1890])
+            ("init" function
+               (:parent "mcal::port"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1917 1936]))                  
+                :type "void")
+                nil [1895 3104]))          
+      :file "mcal_port.cpp"
+      :pointmax 3105
+      :fsize 3192
+      :lastmodtime '(23474 24337 724055 490000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_I2C_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [451 481])
+            ("cstdint" include (:system-flag t) nil [484 502])
+            ("mcal_cpu.h" include (:system-flag t) nil [503 524])
+            ("mcal_reg_access.h" include (:system-flag t) nil [525 553])
+            ("algorithm" include (:system-flag t) nil [554 574])
+            ("mcal" type
+               (:members 
+                  ( ("i2c" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [701 726])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [742 761]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [732 762])
+                            ("send_n" function
+                               (:template 
+                                  ( ("send_iterator_type" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("first" variable (:type ("send_iterator_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4228 4253])
+                                    ("last" variable (:type ("send_iterator_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4272 4296]))                                  )
+                                (reparse-symbol namespacesubparts) [4172 5783])
+                            ("recv" function
+                               (:arguments 
+                                  ( ("byte_to_recv" variable
+                                       (:reference 1
+                                        :type ("bval_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5801 5825]))                                  
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [5791 6010])
+                            ("receive_ready" function (:type "bool") (reparse-symbol namespacesubparts) [6062 6326])
+                            ("private" label nil (reparse-symbol namespacesubparts) [6330 6338])
+                            ("slave_addr" variable
+                               (:default-value "0x80UL"
+                                :type ("std::uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6362 6395])
+                            ("send_is_active" variable
+                               (:typemodifiers ("volatile")
+                                :type "bool")
+                                (reparse-symbol namespacesubparts) [6403 6432])
+                            ("ctrl_register" variable
+                               (:default-value "addr_type(port + 0x00UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6457 6523])
+                            ("master_mode_register" variable
+                               (:default-value "addr_type(port + 0x04UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6547 6613])
+                            ("slave_mode_register" variable
+                               (:default-value "addr_type(port + 0x08UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6637 6703])
+                            ("internal_addr_register" variable
+                               (:default-value "addr_type(port + 0x0CUL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6727 6793])
+                            ("clock_generator_register" variable
+                               (:default-value "addr_type(port + 0x10UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6817 6883])
+                            ("status_register" variable
+                               (:default-value "addr_type(port + 0x20UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [6997 7063])
+                            ("interrupt_enable_register" variable
+                               (:default-value "addr_type(port + 0x24UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [7088 7152])
+                            ("interrupt_disable_register" variable
+                               (:default-value "addr_type(port + 0x28UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [7176 7240])
+                            ("interrupt_mask_register" variable
+                               (:default-value "addr_type(port + 0x2CUL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [7264 7328])
+                            ("input_data_register" variable
+                               (:default-value "addr_type(port + 0x30UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [7353 7417])
+                            ("output_data_register" variable
+                               (:default-value "addr_type(port + 0x34UL)"
+                                :type ("addr_type" type (:type "class") nil nil))
+                                (reparse-symbol namespacesubparts) [7441 7505]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [679 7657])
+                    ("the_i2c_0" variable
+                       (:typemodifiers ("extern")
+                        :type ("i2c_communication" type
+                             (:template-specifier 
+                                ( ("std::uint32_t" type nil nil nil)
+                                  ("std::uint8_t" type nil nil nil)
+                                  ("mcal::reg::twi0_base" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol namespacesubparts) [7664 7808]))                  
+                :type "namespace")
+                nil [660 7973]))          
+      :file "mcal_i2c.h"
+      :pointmax 8019
+      :fsize 8019
+      :lastmodtime '(23475 41108 420172 799000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_I2C_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_i2c.h" include (:system-flag t) nil [262 283])
+            ("mcal_cpu.h" include (:system-flag t) nil [284 305])
+            ("mcal_port.h" include (:system-flag t) nil [306 328])
+            ("mcal_reg_access.h" include (:system-flag t) nil [329 357])
+            ("mcal::i2c::the_i2c_0" variable (:type ("mcal::i2c::i2c_communication" type
+                 (:template-specifier 
+                    ( ("std::uint32_t" type nil nil nil)
+                      ("std::uint8_t" type nil nil nil)
+                      ("mcal::reg::twi0_base" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [359 518])
+            ("init" function
+               (:parent "mcal::i2c"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [543 563]))                  
+                :type "void")
+                nil [522 1428])
+            ("mcal::i2c::the_i2c_1" variable (:type ("i2c_communication" type
+                 (:template-specifier 
+                    ( ("std::uint32_t" type nil nil nil)
+                      ("std::uint8_t" type nil nil nil)
+                      ("mcal::reg::twi1_base" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [1446 1596])
+            ("__vector_uart1_rx_tx_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [1615 1683])
+            ("__vector_uart1_rx_tx_irq" function (:type "void") nil [1684 1747]))          
+      :file "mcal_i2c.cpp"
+      :pointmax 1748
+      :fsize 1747
+      :lastmodtime '(23474 25667 863516 173000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_MCAL_ADC_SAM4S_EMBEDDED_2018_" variable (:constant-flag t) nil [365 395])
+            ("cstdint" include (:system-flag t) nil [398 416])
+            ("mcal_cpu.h" include (:system-flag t) nil [417 438])
+            ("mcal_reg_access.h" include (:system-flag t) nil [439 467])
+            ("algorithm" include (:system-flag t) nil [468 488])
+            ("mcal" type
+               (:members 
+                  ( ("adc" type
+                       (:members 
+                          ( ("config_type" type
+                               (:typedef ("void")
+                                :type "typedef")
+                                (reparse-symbol namespacesubparts) [615 640])
+                            ("init" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("config_type" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [656 675]))                                  
+                                :type "void")
+                                (reparse-symbol namespacesubparts) [646 676])
+                            ("adc_device" type
+                               (:template 
+                                  ( ("port_type" type (:type "class") nil nil)
+                                    ("bval_type" type (:type "class") nil nil)
+                                    ("port_type" type (:typevar "port") nil nil))                                  
+                                :type "class"
+                                :members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [916 923])
+                                    ("addr_type" type
+                                       (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [930 962])
+                                    ("reg_type" type
+                                       (:typedef ("std::uint32_t" type (:type "class") nil nil)
+                                        :type "typedef")
+                                        (reparse-symbol classsubparts) [969 1000])
+                                    ("adc_device" function
+                                       (:constructor-flag t
+                                        :type ("adc_device" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1008 2055])
+                                    ("read" function
+                                       (:arguments 
+                                          ( ("byte_to_send" variable
+                                               (:constant-flag t
+                                                :type ("bval_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2073 2102]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [2063 2474])
+                                    ("start" function
+                                       (:arguments 
+                                          ( ("byte_to_recv" variable
+                                               (:reference 1
+                                                :type ("bval_type" type (:type "class") nil nil))
+                                                (reparse-symbol arg-sub-list) [2493 2517]))                                          
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [2482 2702])
+                                    ("conversion_ready" function (:type "bool") (reparse-symbol classsubparts) [2754 3031])
+                                    ("private" label nil (reparse-symbol classsubparts) [3035 3043])
+                                    ("send_is_active" variable
+                                       (:typemodifiers ("volatile")
+                                        :type "bool")
+                                        (reparse-symbol classsubparts) [3050 3079])
+                                    ("adc_ctrl_register" variable
+                                       (:default-value "addr_type(port + 0x00UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3104 3167])
+                                    ("adc_mode_register" variable
+                                       (:default-value "addr_type(port + 0x04UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3191 3254])
+                                    ("channel_enable_register" variable
+                                       (:default-value "addr_type(port + 0x10UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3279 3342])
+                                    ("channel_enable_register" variable
+                                       (:default-value "addr_type(port + 0x14UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3366 3429])
+                                    ("channel_status_register" variable
+                                       (:default-value "addr_type(port + 0x18UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3453 3516])
+                                    ("interrupt_enable_register" variable
+                                       (:default-value "addr_type(port + 0x24UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3639 3703])
+                                    ("interrupt_disable_register" variable
+                                       (:default-value "addr_type(port + 0x28UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3727 3791])
+                                    ("interrupt_mask_register" variable
+                                       (:default-value "addr_type(port + 0x2CUL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3815 3879])
+                                    ("interrupt_status_register" variable
+                                       (:default-value "addr_type(port + 0x30UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3903 3967])
+                                    ("output_data_register" variable
+                                       (:default-value "addr_type(port + 0x20UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4030 4094])
+                                    ("ad0_data_register" variable
+                                       (:default-value "addr_type(port + 0x50UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4160 4224])
+                                    ("ad1_data_register" variable
+                                       (:default-value "addr_type(port + 0x54UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4248 4312])
+                                    ("ad2_data_register" variable
+                                       (:default-value "addr_type(port + 0x58UL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4336 4400])
+                                    ("ad15_data_register" variable
+                                       (:default-value "addr_type(port + 0x8CUL)"
+                                        :type ("addr_type" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4425 4489]))                                  )
+                                (reparse-symbol namespacesubparts) [759 4551])
+                            ("the_adc" variable
+                               (:typemodifiers ("extern")
+                                :type ("adc_peripheral" type
+                                     (:template-specifier 
+                                        ( ("std::uint32_t" type nil nil nil)
+                                          ("std::uint8_t" type nil nil nil)
+                                          ("mcal::reg::adc_base" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol namespacesubparts) [4557 4689]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [593 4691]))                  
+                :type "namespace")
+                nil [574 4694]))          
+      :file "mcal_adc.h"
+      :pointmax 4736
+      :fsize 4735
+      :lastmodtime '(23475 50429 53011 934000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_MCAL_ADC_SAM4S_EMBEDDED_2018_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal_adc.h" include (:system-flag t) nil [262 283])
+            ("mcal_cpu.h" include (:system-flag t) nil [284 305])
+            ("mcal_port.h" include (:system-flag t) nil [306 328])
+            ("mcal_reg_access.h" include (:system-flag t) nil [329 357])
+            ("init" function
+               (:parent "mcal::adc"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("config_type" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [381 401]))                  
+                :type "void")
+                nil [360 625])
+            ("mcal::adc::the_adc" variable
+               (:typemodifiers ("extern")
+                :type ("mcal::adc::adc_peripheral" type
+                     (:template-specifier 
+                        ( ("std::uint32_t" type nil nil nil)
+                          ("std::uint8_t" type nil nil nil)
+                          ("mcal::reg::adc_base" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [741 891]))          
+      :file "mcal_adc.cpp"
+      :pointmax 2173
+      :fsize 2172
+      :lastmodtime '(23475 50328 53559 95000)
+      :unmatched-syntax nil))
+  :file "!srv!share!Workspace!base-iot!src!mcal!sam4s!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

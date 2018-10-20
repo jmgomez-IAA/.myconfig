@@ -1,0 +1,299 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("array" include (:system-flag t) nil [119 135])
+            ("cstddef" include (:system-flag t) nil [136 154])
+            ("mcal_cpu.h" include (:system-flag t) nil [155 176])
+            ("__initial_stack_pointer" function
+               (:prototype-flag t
+                :type "void")
+                nil [189 220])
+            ("__my_startup" function
+               (:prototype-flag t
+                :type "void")
+                nil [233 294])
+            ("__vector_unused_irq" function
+               (:prototype-flag t
+                :type "void")
+                nil [306 367])
+            ("__nmi_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [379 440])
+            ("__hard_fault_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [452 513])
+            ("__mem_manage_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [525 586])
+            ("__bus_fault_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [598 659])
+            ("__usage_fault_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [671 732])
+            ("__svc_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [744 805])
+            ("__debug_mon_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [817 878])
+            ("__pend_sv_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [890 951])
+            ("__sys_tick_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [963 1030])
+            ("__vector_timer4" function
+               (:prototype-flag t
+                :type "void")
+                nil [1042 1103])
+            ("__vector_uart1_rx_tx_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [1115 1183])
+            ("__vector_pio_a_handler" function
+               (:prototype-flag t
+                :type "void")
+                nil [1195 1257])
+            ("__vector_unused_irq" function (:type "void") nil [1299 1361])
+            ("__nmi_handler" function (:type "void") nil [1373 1435])
+            ("__hard_fault_handler" function (:type "void") nil [1447 1509])
+            ("__mem_manage_handler" function (:type "void") nil [1521 1583])
+            ("__bus_fault_handler" function (:type "void") nil [1595 1657])
+            ("__usage_fault_handler" function (:type "void") nil [1669 1731])
+            ("__svc_handler" function (:type "void") nil [1743 1805])
+            ("__debug_mon_handler" function (:type "void") nil [1817 1879])
+            ("__pend_sv_handler" function (:type "void") nil [1891 1953])
+            ("__sys_tick_handler" function (:type "void") nil [1965 2027])
+            ("__vector_uart1_rx_tx_handler" function (:type "void") nil [2039 2109])
+            ("__vector_pio_a_handler" function (:type "void") nil [2123 2188])
+            ("unnamed" type
+               (:members 
+                  ( ("isr_type" function
+                       (:prototype-flag t
+                        :function-pointer t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [2212 2231])
+                    ("number_of_interrupts" variable
+                       (:default-value "51U"
+                        :type ("std::size_t" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [2334 2373]))                  
+                :type "namespace")
+                nil [2190 2375])
+            ("__isr_vector" variable
+               (:typemodifiers ("volatile")
+                :constant-flag t
+                :type ("std::array" type
+                     (:template-specifier 
+                        ( ("isr_type" type nil nil nil)
+                          ("number_of_interrupts" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2388 2499])
+            ("__isr_vector" variable
+               (:typemodifiers ("volatile")
+                :constant-flag t
+                :default-value "{{
+  __initial_stack_pointer,   // 0x0000, 0, initial stack pointer
+  __my_startup,              // 0x0004, 1, reset
+  __nmi_handler,             // 0x0008, 2, nmi exception
+  __hard_fault_handler,      // 0x000C, 3, hard fault exception
+  __mem_manage_handler,      // 0x0010, 4, memory management exception
+  __bus_fault_handler,       // 0x0014, 5, bus fault exception
+  __usage_fault_handler,     // 0x0018, 6, usage fault exception
+  __vector_unused_irq,       // 0x001C, 7, reserved
+  __vector_unused_irq,       // 0x0020, 8, reserved
+  __vector_unused_irq,       // 0x0024, 9, reserved
+  __vector_unused_irq,       // 0x0028, 10, reserved
+  __svc_handler,             // 0x002C, 11, svc handler
+  __debug_mon_handler,       // 0x0030, 12, debug monitor
+  __vector_unused_irq,       // 0x0034, 13, reserved
+  __pend_sv_handler,         // 0x0038, 14, pending svc,
+  __sys_tick_handler,        // 0x003C, 15, system tick handler,
+  __vector_unused_irq,       // 0x0040, 16, wwdg irq handler, 0_supplyCtrl
+  __vector_unused_irq,       // 0x0044, 17, pvd irq handler, 1_rstCtrl
+  __vector_unused_irq,       // 0x0048, 18, tamper irq handler, 2 RTC
+  __vector_unused_irq,       // 0x004C, 19, rtc irq handler, 3 RTT
+  __vector_unused_irq,       // 0x0050, 20, flash irq handler, 4 wdg
+  __vector_unused_irq,       // 0x0054, 21, rcc irq handler, 5 pmc
+  __vector_unused_irq,       // 0x0058, 22, exti0 irq handler, 6 eefc0
+  __vector_unused_irq,       // 0x005C, 23, exti1 irq handler, 7 eefc1
+  __vector_unused_irq,       // 0x0060, 24, exti2 irq handler, uart0   <--
+  __vector_uart1_rx_tx_handler,   // 0x0064, 25,  exti3 irq handler, uart1
+  __vector_unused_irq,       // 0x0068, 26, exti4 irq handler,
+  __vector_pio_a_handler,       // 0x006C, 27, dma_channel1 irq handler, PIOA   <--
+  __vector_unused_irq,       // 0x0070, 28, dma_channel2 irq handler, PIOB
+  __vector_unused_irq,       // 0x0074, 29, dma_channel3 irq handler, PIOC
+  __vector_unused_irq,       // 0x0078, 30, dma_channel4 irq handler, USART0
+  __vector_unused_irq,       // 0x007C, 31, dma_channel5 irq handler, USART1
+  __vector_unused_irq,       // 0x0080, 32, dma_channel6 irq handler,
+  __vector_unused_irq,       // 0x0084, 33, dma_channel7 irq handler,
+  __vector_unused_irq,       // 0x0088, 34, adc irq handler, mci
+  __vector_unused_irq,       // 0x008C, 35, usb_hp_can_tx irq handler, twi0
+  __vector_unused_irq,       // 0x0090, 36, usb_lp_can_rx0 irq handler, twi1
+  __vector_unused_irq,       // 0x0094, 37, can_rx1 irq handler, spi
+  __vector_unused_irq,       // 0x0098, 38, can_sce irq handler, ssc
+  __vector_unused_irq,       // 0x009C, 39, exti9_5 irq handler, tc0
+  __vector_unused_irq,       // 0x00A0, 40, tim1_brk irq handler,tc1
+  __vector_unused_irq,       // 0x00A4, 41, tim1_up irq handler, tc2
+  __vector_unused_irq,       // 0x00A8, 42, tim1_trg_com irq handler, tc3
+  __vector_unused_irq,       // 0x00AC, 43, tim1_cc irq handler, tc4
+  __vector_unused_irq,       // 0x00B0, 44, tim2 irq handler, tc5
+  __vector_unused_irq,       // 0x00B4, 45, tim3 irq handler, adc
+  __vector_unused_irq,       // 0x00B8, 46, tim4 irq handler, dac
+  __vector_unused_irq,       // 0x00BC, 47, i2c1_ev irq handler, pwm
+  __vector_unused_irq,       // 0x00C0, 48, i2c1_er irq handler, crc
+  __vector_unused_irq,       // 0x00C4, 49, i2c2_ev irq handler, analog
+  __vector_unused_irq       // 0x00C8, 50, i2c2_er irq handler, usb dev port
+}}"
+                :type ("std::array" type
+                     (:template-specifier 
+                        ( ("isr_type" type nil nil nil)
+                          ("number_of_interrupts" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2512 6016]))          
+      :file "int_vect.cpp"
+      :pointmax 6017
+      :fsize 6122
+      :lastmodtime '(23468 59845 805853 593000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("mcal/mcal.h" include (:system-flag t) nil [293 315])
+            ("crt" type
+               (:members 
+                  ( ("init_ram" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [335 351])
+                    ("init_ctors" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [354 372]))                  
+                :type "namespace")
+                nil [317 374])
+            ("__my_startup" function
+               (:prototype-flag t
+                :type "void")
+                nil [387 439])
+            ("__my_startup" function (:type "void") nil [441 1178]))          
+      :file "crt0.cpp"
+      :pointmax 1179
+      :fsize 1225
+      :lastmodtime '(23419 1706 318945 372000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("algorithm" include (:system-flag t) nil [293 313])
+            ("cstddef" include (:system-flag t) nil [314 332])
+            ("cstdint" include (:system-flag t) nil [333 351])
+            ("_bss_end" variable
+               (:type ("std::uintptr_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [723 754])
+            ("_bss_begin" variable
+               (:type ("std::uintptr_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [643 676])
+            ("_data_end" variable
+               (:type ("std::uintptr_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [564 596])
+            ("_data_begin" variable
+               (:type ("std::uintptr_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [483 517])
+            ("_rom_data_begin" variable
+               (:type ("std::uintptr_t" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [368 406])
+            ("crt" type
+               (:members 
+                  ( ("init_ram" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [820 836]))                  
+                :type "namespace")
+                nil [802 838])
+            ("init_ram" function
+               (:parent "crt"
+                :type "void")
+                nil [840 1842]))          
+      :file "crt0_init_ram.cpp"
+      :pointmax 1843
+      :fsize 1886
+      :lastmodtime '(23419 1706 318945 372000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("algorithm" include (:system-flag t) nil [293 313])
+            ("iterator" include (:system-flag t) nil [314 333])
+            ("_ctors_begin" variable
+               (:type ("ctor_type::function_type" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [543 590])
+            ("_ctors_end" variable
+               (:type ("ctor_type::function_type" type (:type "class") nil nil)
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [495 540])
+            ("ctor_type" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("function_type" function
+                       (:prototype-flag t
+                        :function-pointer t
+                        :type "void")
+                        (reparse-symbol classsubparts) [383 406])
+                    ("const_reverse_iterator" type
+                       (:typedef ("std::reverse_iterator" type
+                             (:template-specifier 
+                                ( ("function_type" type
+                                     (:pointer 1
+                                      :constant-flag t)
+                                      nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol classsubparts) [411 486]))                  )
+                (reparse-symbol extern-c-contents) [350 491])
+            ("crt" type
+               (:members 
+                  ( ("init_ctors" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [612 630]))                  
+                :type "namespace")
+                nil [594 632])
+            ("init_ctors" function
+               (:parent "crt"
+                :type "void")
+                nil [634 904]))          
+      :file "crt1.cpp"
+      :pointmax 905
+      :fsize 940
+      :lastmodtime '(23419 1706 318945 372000)
+      :unmatched-syntax '((TYPEDEF 375 . 382))))
+  :file "!srv!share!Workspace!base-iot!src!sys!start!sam4s!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

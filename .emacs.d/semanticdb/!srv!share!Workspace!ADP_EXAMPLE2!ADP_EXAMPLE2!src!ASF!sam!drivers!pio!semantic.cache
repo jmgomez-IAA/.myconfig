@@ -1,0 +1,674 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("PIO_H_INCLUDED" variable (:constant-flag t) nil [1479 1493])
+            ("compiler.h" include nil nil [1495 1516])
+            ("pio_configure_pin_group" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8311 8322])
+                    ("ul_mask" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8323 8340])
+                    ("ul_flags" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8343 8367]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8278 8368])
+            ("pio_toggle_pin_group" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8247 8258])
+                    ("ul_mask" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8259 8276]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8221 8277])
+            ("pio_set_pin_group_low" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8190 8201])
+                    ("ul_mask" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8202 8219]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8163 8220])
+            ("pio_set_pin_group_high" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8132 8143])
+                    ("ul_mask" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8144 8161]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8104 8162])
+            ("pio_configure_pin" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("ul_pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8061 8077])
+                    ("ul_flags" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8078 8102]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8034 8103])
+            ("pio_get_pin_group_mask" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8019 8032]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7987 8033])
+            ("pio_get_pin_group_id" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7972 7985]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7942 7986])
+            ("pio_get_pin_group" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("Pio" type (:type "class") nil nil)
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7927 7940]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7904 7941])
+            ("pio_disable_pin_interrupt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7889 7902]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7858 7903])
+            ("pio_enable_pin_interrupt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7843 7856]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7813 7857])
+            ("pio_toggle_pin" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7798 7811]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7778 7812])
+            ("pio_set_pin_low" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7763 7776]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7742 7777])
+            ("pio_set_pin_high" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7727 7740]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7705 7741])
+            ("pio_get_pin_value" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7690 7703]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7663 7704])
+            ("pio_get_writeprotect_status" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6984 7001]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6947 7002])
+            ("pio_set_writeprotect" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6908 6919])
+                    ("ul_enable" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6920 6945]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6882 6946])
+            ("pio_set_additional_interrupt_mode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6814 6825])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6828 6851])
+                    ("ul_attribute" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6852 6880]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6775 6881])
+            ("pio_get_interrupt_mask" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6756 6773]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6724 6774])
+            ("pio_get_interrupt_status" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6705 6722]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6671 6723])
+            ("pio_disable_interrupt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6634 6645])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6646 6669]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6607 6670])
+            ("pio_enable_interrupt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6570 6581])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6582 6605]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6544 6606])
+            ("pio_configure_interrupt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6481 6492])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6493 6516])
+                    ("ul_attr" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6519 6542]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6452 6543])
+            ("pio_sync_output_write" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6163 6174])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6175 6198]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6136 6199])
+            ("pio_get_output_write_status" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6117 6134]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6080 6135])
+            ("pio_disable_output_write" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6043 6054])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6055 6078]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6013 6079])
+            ("pio_enable_output_write" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5976 5987])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5988 6011]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5947 6012])
+            ("pio_get_multi_driver_status" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5700 5717]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5663 5718])
+            ("pio_set_multi_driver" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5585 5596])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5597 5620])
+                    ("ul_multi_driver_enable" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5623 5661]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5559 5662])
+            ("pio_get_output_data_status" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5514 5531])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5534 5557]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5478 5558])
+            ("pio_configure" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5384 5395])
+                    ("ul_type" variable
+                       (:constant-flag t
+                        :type ("pio_type_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5396 5421])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5424 5447])
+                    ("ul_attribute" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5448 5476]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5361 5477])
+            ("pio_set_output" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5214 5225])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5226 5249])
+                    ("ul_default_level" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5252 5284])
+                    ("ul_multidrive_enable" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5287 5323])
+                    ("ul_pull_up_enable" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5326 5359]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5194 5360])
+            ("pio_set_input" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5126 5137])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5138 5161])
+                    ("ul_attribute" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5164 5192]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5107 5193])
+            ("pio_set_peripheral" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5042 5053])
+                    ("ul_type" variable
+                       (:constant-flag t
+                        :type ("pio_type_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5054 5079])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5082 5105]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5018 5106])
+            ("pio_get" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("uint32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4953 4964])
+                    ("ul_type" variable
+                       (:constant-flag t
+                        :type ("pio_type_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4965 4990])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4993 5016]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4936 5017])
+            ("pio_clear" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4899 4910])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4911 4934]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4884 4935])
+            ("pio_set" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4847 4858])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4859 4882]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4834 4883])
+            ("pio_set_debounce_filter" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4768 4779])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4780 4803])
+                    ("ul_cut_off" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4806 4832]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4739 4833])
+            ("pio_pull_up" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("p_pio" variable
+                       (:pointer 1
+                        :type ("Pio" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4666 4677])
+                    ("ul_mask" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4678 4701])
+                    ("ul_pull_up_enable" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4704 4737]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4649 4738])
+            ("PIO_IT_RISE_EDGE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4224 4240])
+            ("PIO_IT_FALL_EDGE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4107 4123])
+            ("PIO_IT_HIGH_LEVEL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3999 4016])
+            ("PIO_IT_LOW_LEVEL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3893 3909])
+            ("PIO_IT_EDGE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3813 3824])
+            ("PIO_IT_RE_OR_HL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3728 3743])
+            ("PIO_IT_AIME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3624 3635])
+            ("PIO_DEBOUNCE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3539 3551])
+            ("PIO_OPENDRAIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3447 3460])
+            ("PIO_DEGLITCH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3375 3387])
+            ("PIO_PULLUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3288 3298])
+            ("PIO_DEFAULT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3203 3214])
+            ("pio_type_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("_pio_type" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [2653 3144])
+            ("_pio_type" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("PIO_NOT_A_PIN" variable
+                       (:constant-flag t
+                        :default-value (2697 2715)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2679 2715])
+                    ("PIO_PERIPH_A" variable
+                       (:constant-flag t
+                        :default-value (2736 2757)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2718 2757])
+                    ("PIO_PERIPH_B" variable
+                       (:constant-flag t
+                        :default-value (2778 2799)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2760 2799])
+                    ("PIO_INPUT" variable
+                       (:constant-flag t
+                        :default-value (3028 3046)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3010 3046])
+                    ("PIO_OUTPUT_0" variable
+                       (:constant-flag t
+                        :default-value (3067 3088)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3049 3088])
+                    ("PIO_OUTPUT_1" variable
+                       (:constant-flag t
+                        :default-value (3109 3130)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3091 3130]))                  )
+                (reparse-symbol extern-c-contents) [2653 3144])
+            ("PIO_TYPE_PIO_OUTPUT_1" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2599 2620])
+            ("PIO_TYPE_PIO_OUTPUT_0" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2481 2502])
+            ("PIO_TYPE_PIO_INPUT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2363 2381])
+            ("PIO_TYPE_PIO_PERIPH_D" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2275 2296])
+            ("PIO_TYPE_PIO_PERIPH_C" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2165 2186])
+            ("PIO_TYPE_PIO_PERIPH_B" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2055 2076])
+            ("PIO_TYPE_PIO_PERIPH_A" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1945 1966])
+            ("PIO_TYPE_NOT_A_PIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1835 1853])
+            ("PIO_TYPE_Msk" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1737 1749])
+            ("PIO_TYPE_Pos" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1676 1688])
+            ("PIO_DELTA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1600 1609]))          
+      :file "pio.h"
+      :pointmax 14746
+      :fsize 15112
+      :lastmodtime '(23369 49172 935576 202000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("PIO_TYPE_Msk" . ((semantic-list "(0xFu << PIO_TYPE_Pos)" 1767 . 1789)))
+          ("PIO_TYPE_NOT_A_PIN" . ((semantic-list "(0x0u << PIO_TYPE_Pos)" 1865 . 1887)))
+          ("PIO_IT_AIME" . ((semantic-list "(1u << 4)" 3648 . 3657)))
+          ("PIO_DELTA" . ((semantic-list "((uint32_t) PIOB - (uint32_t) PIOA)" 1612 . 1647)))
+          ("PIO_IT_LOW_LEVEL" . ((semantic-list "(0               | 0 | PIO_IT_AIME)" 3917 . 3952)))
+          ("PIO_TYPE_PIO_PERIPH_A" . ((semantic-list "(0x1u << PIO_TYPE_Pos)" 1975 . 1997)))
+          ("PIO_TYPE_PIO_PERIPH_B" . ((semantic-list "(0x2u << PIO_TYPE_Pos)" 2085 . 2107)))
+          ("PIO_DEBOUNCE" . ((semantic-list "(1u << 3)" 3563 . 3572)))
+          ("PIO_TYPE_PIO_PERIPH_C" . ((semantic-list "(0x3u << PIO_TYPE_Pos)" 2195 . 2217)))
+          ("PIO_TYPE_PIO_INPUT" . ((semantic-list "(0x5u << PIO_TYPE_Pos)" 2393 . 2415)))
+          ("PIO_IT_HIGH_LEVEL" . ((semantic-list "(PIO_IT_RE_OR_HL | 0 | PIO_IT_AIME)" 4023 . 4058)))
+          ("PIO_TYPE_PIO_PERIPH_D" . ((semantic-list "(0x4u << PIO_TYPE_Pos)" 2305 . 2327)))
+          ("PIO_PULLUP" . ((semantic-list "(1u << 0)" 3312 . 3321)))
+          ("PIO_IT_EDGE" . ((semantic-list "(1u << 6)" 3837 . 3846)))
+          ("PIO_IT_RISE_EDGE" . ((semantic-list "(PIO_IT_RE_OR_HL | PIO_IT_EDGE | PIO_IT_AIME)" 4248 . 4293)))
+          ("PIO_H_INCLUDED")
+          ("PIO_DEGLITCH" . ((semantic-list "(1u << 1)" 3399 . 3408)))
+          ("PIO_OPENDRAIN" . ((semantic-list "(1u << 2)" 3471 . 3480)))
+          ("PIO_TYPE_PIO_OUTPUT_0" . ((semantic-list "(0x6u << PIO_TYPE_Pos)" 2511 . 2533)))
+          ("PIO_IT_FALL_EDGE" . ((semantic-list "(0               | PIO_IT_EDGE | PIO_IT_AIME)" 4131 . 4176)))
+          ("PIO_TYPE_PIO_OUTPUT_1" . ((semantic-list "(0x7u << PIO_TYPE_Pos)" 2629 . 2651)))
+          ("PIO_DEFAULT" . ((semantic-list "(0u << 0)" 3227 . 3236)))
+          ("PIO_TYPE_Pos" . ((number "27" 1706 . 1708)))
+          ("PIO_IT_RE_OR_HL" . ((semantic-list "(1u << 5)" 3752 . 3761)))
+          )
+))
+  :file "!srv!share!Workspace!ADP_EXAMPLE2!ADP_EXAMPLE2!src!ASF!sam!drivers!pio!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
